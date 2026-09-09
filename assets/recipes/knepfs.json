@@ -1,0 +1,21 @@
+{
+    "Name": "Knepfs",
+    "Quantity": 4,
+    "Ingredients": [
+        "300g Farine de ble",
+        "300g Farine de ble complet",
+        "2 cas Huile d'olive",
+        "3 oeufs",
+        "1 L Eau",
+        "Sel",
+        "Poivre"
+    ],
+    "Steps": [
+        "Dans un grand saladier, fouetter les oeufs, le sel, le poivre et l'huile avec un peu d'eau",
+        "Ajouter alternativement de farine et de l'eau en continuant de fouetter la pate jusqu'a obtenir une texture satisfaisante",
+        "Faire bouillir un grand volume d'eau salee",
+        "Confectionner les knepfs avant de les plonger dans l'eau bouillante, veiller a ne pas en mettre trop d'un coup pour eviter une accumulation de pate non cuite dans le fond de la marmitte.",
+        "Lorsqu'elles remontent a la surface cueiller les a l'aide d'un ecumoir et reserver dans une passeoire, repeter jusqu'a epuisement de la pate",
+        "Pendant toutes ces etapes, veiller egalement a bien controller la temperature de l'eau afin qu'elle bouille legerement"
+    ]
+}

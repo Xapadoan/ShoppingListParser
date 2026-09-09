@@ -1,0 +1,21 @@
+{
+    "Name": "Fondue de poireaux",
+    "Quantity": 4,
+    "Ingredients": [
+        "4 poireaux",
+        "20cl Creme vegetale",
+        "1 Oignon",
+        "1 1/2 botte de persil ou aneth",
+        "125ml Vin blanc sec",
+        "3cas huile d'olive",
+        "Sel",
+        "Poivre",
+        "200g Riz blanc"
+    ],
+    "Steps": [
+        "Ciseller l'oignon, les poireaux et les herbes, presser l'ail",
+        "Dans un fait tout, faire revenir l'oignon avec l'ail",
+        "Lorsque l'oignon est translucide, ajouter les poireaux et les herbes et arroser de vin blanc, laisser mijoter a feu doux pendant 50 minutes",
+        "Pendant ce temps, faire cuire le riz facon pillaf"
+    ]
+}

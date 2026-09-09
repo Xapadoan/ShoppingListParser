@@ -1,0 +1,36 @@
+{
+  "name": "Pad Thai Froid",
+  "quantity": 4,
+  "ingredients": [
+    "Nouilles de sarrasin",
+    "Coriandre 1 botte",
+    "50g de cacahuetes",
+    "Concombres 2",
+    "Carottes 2",
+    "Citrons verts 1",
+    "Tofu 200g",
+    "(Opt) Mini crevettes",
+    "Sauce Soja",
+    "gousses d'Ail 2",
+    "Huile d'olive",
+    "Graines de Sesame",
+    "Echalottes 2",
+    "Piment broye",
+    "Gingembre 2cm"
+  ],
+  "steps": [
+    "La vielle, preparer la marinade",
+    "Emincer l'echalotte finement, pressez l'ail et raper le gingembre",
+    "Coupez le tofu en cubes d'1 cm",
+    "Dans un bol, melanger huile d'olive, sauce soja, graines de sesames, echalottes, piment, ail et salez a convenence",
+    "Ajoutez le tofu",
+    "Reserver au frais.",
+    "",
+    "Cuire les pates et laissez refroidir",
+    "Ciseler la coriandre",
+    "Concasser les cacahuetes",
+    "Tailler les concombres et carottes en julienne fine",
+    "Melanger les legumes avec la marinade dans un bol et deposer sur un lit de pates ou dresser facon bowl",
+    "Couper le citron vert en 6 dans le sens de la longueur"
+  ]
+}

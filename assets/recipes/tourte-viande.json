@@ -1,0 +1,35 @@
+{
+    "Name": "Tourte a la viande",
+    "Quantity": 4,
+    "Ingredients": [
+        "2 pâtes brisées maison",
+        "400 g d’échine de porc",
+        "200 g de champignons de Paris",
+        "2 grosses échalotes",
+        "1 cac d’herbes de Provence",
+        "1 bouquet garni",
+        "250 ml de vin blanc sec",
+        "4 oeufs",
+        "300 ml de crème liquide entière",
+        "Sel",
+        "Poivre"
+    ],
+    "Steps": [
+        "La veille :",
+        "Préparez 2 pâtes brisées maison, filmez-les et laissez-les reposer au froid.",
+        "Coupez la viande de porc en petits cubes d'1cm. Réservez dans une boite hermétique.",
+        "Rincez les champignons et coupez-les également en petits morceaux.",
+        "Ajoutez les champignons, les échalotes, les aromatiques à la viande.",
+        "Salez, poivrez puis versez le vin blanc. Mélangez à nouveau et laissez reposer une nuit au froid.",
+        "Le lendemain :",
+        "Egouttez la préparation.",
+        "Abaissez 2 ronds de pâte au rouleau et garnissez un fond de tarte. Piquez la pâte.",
+        "Préchauffez votre four à 200° / chaleur tournante.",
+        "Versez la préparation à la viande bien égouttée sur la pâte.",
+        "Dans un saladier, battez les œufs et la crème liquide, salez, poivrez puis versez l'appareil dans le moule.",
+        "Déposez le second rond de pâte sur le premier. Soudez les bords avec de l'eau au pinceau.",
+        "Faites une cheminée au centre de la tourte pour permettre à la vapeur de s'échapper pendant la cuisson.",
+        "S'il vous reste des chutes de pâte, décorer la tarte avec des morceaux emporte-piècés que vous collerez au pinceau et à l’eau.",
+        "Dorez la tourte au jaune d'œuf puis enfournez pour 50-55 minutes selon votre four."
+    ]
+}

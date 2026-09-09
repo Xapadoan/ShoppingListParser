@@ -1,0 +1,24 @@
+{
+    "Name": "Quiche au poulet et champignons",
+    "Quantity": 4,
+    "Ingredients": [
+        "Pates brisees 1",
+        "Filets de poulet 4",
+        "Champignons de paris 1 boite",
+        "Oignons 1",
+        "Crème liquide 20 cl",
+        "Parmesan rape 50 g",
+        "Oeufs 3",
+        "Huile d'olive",
+        "Sel",
+        "Poivre"
+    ],
+    "Steps": [
+        "Préchauffez le four à 190°C (th.6/7).",
+        "Pelez et émincez l'oignon. Faites-le revenir dans une poêle avec un trait d'huile, puis ajoutez les champignons.",
+        "Taillez le poulet en dés, et ajoutez-le dans la poêlée. Laissez revenir 5 min.",
+        "Pendant ce temps, cassez les œufs dans un bol puis ajoutez-y du sel et du poivre. Avec un batteur électrique, fouettez le tout en incorporant la crème liquide et le parmesan.",
+        "Disposez la pâte feuilletée dans un moule à tarte et recouvrez le fond avec la garniture au poulet.",
+        "Nappez le tout de la crème préparée puis enfournez 35 min. Laissez ensuite reposer 15 min à température ambiante."
+    ]
+}

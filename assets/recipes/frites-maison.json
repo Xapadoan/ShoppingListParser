@@ -1,0 +1,17 @@
+{
+  "name": "Frites maison",
+  "quantity": 4,
+  "ingredients": [
+    "600g patates",
+    "Sel",
+    "Huile d'olive",
+    "Epices (herbes de provence, paprika)"
+  ],
+  "steps": [
+    "Laver et eplucher les patates, puis les tailler en batonnets d'un cm de cote",
+    "Prechauffer le four a 200",
+    "Disposer les batonnets sur un chiffon propre et les essuyer vigoureusement pour oter l'amidon",
+    "Dans un saladier, melanger les batonnets avec l'huile d'olive, les epices et le sel",
+    "Mettre les frites sur une plaque et enfourner pour 30mins"
+  ]
+}

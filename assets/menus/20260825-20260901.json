@@ -1,0 +1,43 @@
+{
+  "Saturday": {
+    "Breakfast": { "Title": "Fromage Blanc avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Pad Thai Froid", "RecipeIds": ["pad-thai-froid"] },
+    "Dinner": { "Title": "Croc Saumon Comcombre + Salade verte Tomates", "RecipeIds": ["croc-saumon-concombre", "salade-verte-tomate"] }
+  },
+  "Sunday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Pad Thai Froid", "RecipeIds": ["pad-thai-froid"] },
+    "Dinner": { "Title": "Croc Saumon Comcombre + Salade verte Tomates", "RecipeIds": ["croc-saumon-concombre", "salade-verte-tomate"] }
+  },
+  "Monday": {
+    "Breakfast": { "Title": "Fromage Blanc avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Gnocchi Tomates Courgettes Fromage", "RecipeIds": ["gnocchis-tomates-courgettes-fromage"] },
+    "Dinner": { "Title": "Plaque de legumes au four", "RecipeIds": ["plaque-legumes-four"] }
+  },
+  "Tuesday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Gnocchi Tomates Courgettes Fromage", "RecipeIds": ["gnocchis-tomates-courgettes-fromage"] },
+    "Dinner": { "Title": "Plaque de legumes au four", "RecipeIds": ["plaque-legumes-four"] }
+  },
+  "Wednesday": {
+    "Breakfast": { "Title": "Fromage Blanc avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Pates Brocolis piments + steaks", "RecipeIds": ["pates-brocolis-piment", "steak-hache"] },
+    "Dinner": { "Title": "Salade Cesar", "RecipeIds": ["salade-cesar"] }
+  },
+  "Thursday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Pates Brocolis piments + steaks", "RecipeIds": ["pates-brocolis-piment", "steak-hache"] },
+    "Dinner": {
+      "Title":
+        "Salade Cesar", "RecipeIds": ["salade-cesar"]
+    }
+  },
+  "Friday": {
+    "Breakfast": { "Title": "Fromage Blanc avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Curry rouge aux legumes et poulet", "RecipeIds": ["curry-rouge-legumes"] },
+    "Dinner": {
+      "Title":
+        "Roules oeufs epinards", "RecipeIds": ["roules-oeufs-epinards"]
+    }
+  }
+}

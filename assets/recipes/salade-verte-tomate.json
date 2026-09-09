@@ -1,0 +1,14 @@
+{
+    "name": "Salade verte et Tomates",
+    "quantity": 4,
+    "ingredients": [
+        "1 Salade verte",
+        "1 Tomate ancienne",
+        "Persil"
+    ],
+    "steps": [
+        "Laver et couper les feuilles de salade en lanieres larges",
+        "Couper la tomate en des",
+        "Parsemer de persil hache"
+    ]
+}

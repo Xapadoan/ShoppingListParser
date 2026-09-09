@@ -1,0 +1,35 @@
+{
+  "name": "Burger au tofu marine croustillant",
+  "quantity": 4,
+  "ingredients": [
+    "4 Buns",
+    "Sauce soja",
+    "Huile de sesame",
+    "Vinaigre de riz",
+    "2 gousse d'Ail",
+    "Sirop d'erable",
+    "Paprika",
+    "2 cas chapelure",
+    "2 cas farine",
+    "2 cas lait vegetal",
+    "2 cas epices au choix (paprika, ail, herbes)",
+    "8 Cornichons",
+    "2 Tomates grappe",
+    "200g Roquette",
+    "100ml Mayonaise",
+    "1/2 concombre"
+  ],
+  "anticipation": "12h",
+  "steps": [
+    "La veille, preparer la marinade. Melanger la sauce soja, l'huile de sesame, le vinaigre de riz, l'ail (1 seule gousse), le sirop d'erable et le paprika dans un bol.",
+    "Couper le tofu en tranches d'1.5cm et le faire tremper dans la sauce. Reserver au frais",
+    "Le jour J, sortir le tofu de la marinade et l'egouter",
+    "Pendant que le tofu s'egoute, preparer la mayonaise si necessaire, presser la gousse d'ail restante et melanger les deux dans un bol",
+    "Preparer 3 bol, un avec le lait vegetal, un avec de la farine, et un avec la chapelure melange aux epices",
+    "Decouper les tomates, les cornichons et l'oignon en tranches fines",
+    "Passer chaque tranche de tofu dans la farine, puis le lait, puis la chapelure, reservez",
+    "Faire dorer 3-4 minutes chaque cote dans une poele bien huilee",
+    "Faire dorer les buns dans la poele",
+    "Monter le tout"
+  ]
+}

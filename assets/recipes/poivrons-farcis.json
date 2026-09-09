@@ -1,0 +1,25 @@
+{
+    "name": "Poivrons farcis",
+    "quantity": 4,
+    "ingredients": [
+        "4 Poivrons",
+        "600g Viande Hachee",
+        "1 oignons",
+        "2 gousses d'ail",
+        "1 cac menthe",
+        "Sel",
+        "1/2 cac cumin",
+        "1 tranches de pain de mie",
+        "100ml lait vegetal",
+        "Huile d'olive",
+        "Eau",
+        "Poivre"
+    ],
+    "steps": [
+        "Tremper la tranche de pain dans le lait",
+        "Essorez le pain de mie et hachez-le avec la viande, l'oignon, les gousses d'ail et la menthe. Salez, poivrez, ajoutez le cumin et mélangez. Préchauffez le four à 180°C.",
+        "Coupez un chapeau dans le haut des poivrons, ôtez les côtes blanches et nettoyez-les.",
+        "Dans un plat allant au four, versez 1 cuillère à soupe d'huile d'olive et 1 cuillère à soupe d'eau. Déposez les poivrons dans le plat, remplissez-les avec la farce puis remettez les chapeaux.",
+        "Faites cuire 45 minutes à 1 heure, selon la taille des poivrons."
+    ]
+}

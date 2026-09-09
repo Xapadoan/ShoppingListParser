@@ -1,0 +1,26 @@
+{
+    "name": "Roules aux Oeufs et Epinards",
+    "quantity": 4,
+    "ingredients": [
+        "8 Oeufs",
+        "150g Epinards",
+        "100g Feta",
+        "1 Carrottes",
+        "100g Fromage frais",
+        "1 gousses d'ail",
+        "1 cas Huile d'olive",
+        "Sel",
+        "Poivre"
+    ],
+    "steps": [
+        "Faire revenir les épinards dans une poêle à induction avec l'huile d'olive et l'ail haché pendant 2 à 3 minutes. Égouttez si nécessaire.",
+        "Râpez la carotte puis mélangez-la avec les épinards, la feta émiettée et le fromage frais.",
+        "Battez les œufs dans un saladier avec une pincée de sel et de poivre.",
+        "Faire chauffer une poele avec l'huile d'olive",
+        "Poser une fine couche d'oeufs sur la poele, laisser cuire jusqu'a ce qu'elle puisse glisser",
+        "Poser une fine couche d'appareil sur les oeufs et rouler delicatement a l'aide d'une spatule en bois. Laisser un espace d'oeufs libre",
+        "Deplacer le roule sur le cote de la poele et ajouter de l'oeuf en collant bien la partie d'oeufs libre",
+        "Repeter jusqu'a epuisement des ingredients",
+        "Coupez en tranches épaisses et servez."
+    ]
+}

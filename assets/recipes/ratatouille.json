@@ -1,0 +1,27 @@
+{
+    "Name": "Ratatouille",
+    "Quantity": 6,
+    "Ingredients": [
+        "500g boulgour ou pates",
+        "3 Courgettes",
+        "1 Aubergines",
+        "3 1/2 boites de tomates",
+        "1 bouquet garni",
+        "2 Oignons",
+        "3 gousses d'ail",
+        "2 cas huile d'olive",
+        "Sel",
+        "Poivre"
+    ],
+    "Steps": [
+        "Coupe l'aubergine en des et la faire degorger",
+        "Emincer les oignons et presser l'ail",
+        "Dans une marmitte, faire revenir les oignons et l'ail dans l'huile d'olive a feu moyen",
+        "Pendant ce temps, couper les courgettes en julienne",
+        "Lorsque les oignons sont translusides, baisser le feu a doux et ajouter les tomates concassees, les courgettes et le bouquet garni",
+        "Rincer l'aubergine et l'ajouter a la sauce",
+        "Laisser mijoter pendant 50 minutes",
+        "Porter un grand volume d'eau salee a ebullition et y faire cuire le boulgour",
+        "Servir dans une assiette creuse"
+    ]
+}

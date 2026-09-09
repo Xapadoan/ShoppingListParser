@@ -1,0 +1,20 @@
+{
+    "name": "Quiche a la courgette, pesto, mozzarella et parmesan",
+    "quantity": 4,
+    "ingredients": [
+        "2 courgettes",
+        "Sel",
+        "2 cas huile d'olive",
+        "1 pates feuilletee",
+        "190 g pesto",
+        "125 g mozzarella rapee",
+        "3 cas de Parmesan"
+    ],
+    "steps": [
+        "Lavez les courgettes et séchez-les. Ôtez les extrémités puis tranchez-les finement, sur environ 2 à 3 mm d'épaisseur.",
+        "Versez 2 cuillères à soupe d'huile d'olive dans une sauteuse et faites-y revenir les courgettes pendant 15 minutes avec une pincée de sel. S'il reste un peu de liquide en fin de cuisson, égouttez-les.",
+        "Déposez la pâte dans votre moule et piquez le fond à l'aide d'une fourchette. Tartinez-le de pesto puis répartissez les rondelles de courgettes précuites.",
+        "Égouttez la mozzarella, coupez-la en 6 tranches et déposez-les sur les courgettes.",
+        "Saupoudrez de Parmesan et enfournez dans un four préchauffé à 190 °C, chaleur tournante, pour 35 minutes de cuisson."
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Wellington Vegetarien",
+    "quantity": 4,
+    "ingredients": [
+        "1 pate feuilletee",
+        "200g Champignon(s) de paris",
+        "1 Oignon(s)",
+        "2 Gousse(s) d'ail",
+        "150g Épinard(s) frais",
+        "100g Noix concassée(s)",
+        "Sel",
+        "Poivre",
+        "Huile d'olive",
+        "Herbes de provence"
+    ],
+    "steps": [
+        "Préchauffez le four à 200°C.",
+        "Dans une poêle, faites revenir l'oignon émincé et l'ail haché dans un filet d'huile d'olive.",
+        "Ajoutez les champignons émincés et faites-les revenir jusqu'à ce qu'ils aient rendu toute leur eau.",
+        "Incorporez les épinards frais et laissez-les réduire.",
+        "Assaisonnez avec le sel, le poivre et les herbes de Provence, puis incorporez les noix concassées.",
+        "Étalez la pâte feuilletée et déposez la préparation aux légumes au centre.",
+        "Refermez la pâte en veillant à bien sceller les bords.",
+        "Enfournez pendant environ 30 minutes jusqu'à ce que la pâte soit dorée."
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gnocchis aux tomates fraiches, courgettes, fromage et herbes",
+  "quantity": 4,
+  "ingredients": [
+    "1600g Gnocchis",
+    "80g Parmesan",
+    "12 Tomates cerises",
+    "40cl Sauce tomate",
+    "2 Courgettes",
+    "1 Oignon rouge",
+    "1 gousse d'ail",
+    "4 cas huile d'olive",
+    "1 1/2 botte herbes (menthe, basilic)"
+  ],
+  "steps": [
+    "Lavez les courgettes, éliminez les extrémités puis tailler en julienne.",
+    "Épluchez l'oignon et émincez-le. Épluchez et pressez l'ail.",
+    "Dans une large poêle, faites revenir l'oignon et l'ail dans l'huile d'olive avec un peu de sel pendant 5 min sur feu moyen/fort en mélangeant régulièrement.",
+    "Ajoutez les courgettes et poursuivez la cuisson 5 min. Ajoutez la sauce tomate et les tomates cerise puis poursuivez la cuisson 5 min, puis reservez",
+    "En parallele, faire cuire les gnocchis dans un grand volume d'eau salee",
+    "Faites revenir les gnocchis dans la poele jusqu'a ce qu'ils soient dores",
+    "Ajouter les legumes"
+  ]
+}

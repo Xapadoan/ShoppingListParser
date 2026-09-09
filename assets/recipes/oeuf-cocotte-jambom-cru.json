@@ -1,0 +1,27 @@
+{
+  "name": "Oeuf cocotte au jambon cru",
+  "quantity": 4,
+  "ingredients": [
+    "4 Oeufs",
+    "4 tranches jambon cru",
+    "4 cas creme fraiche epaisse",
+    "4 cac parmesan",
+    "4 tranches de pain",
+    "1 cas herbes (estragon ou basilic ou persil ou menthe)",
+    "Sel",
+    "Poivre"
+  ],
+  "steps": [
+    "Prechauffer le four a 210",
+    "Couper le jambon en des",
+    "Raper le parmesan",
+    "Hacher les harbes",
+    "Melanger le tout (sans les oeufs) dans un bol",
+    "Disposer le melange dans 4 ramequains",
+    "Ouvrir un oeuf dans chaque ramequain",
+    "Saupoudrer de parmesan",
+    "Mettre les ramequains dans un plat en pirex avec un fond d'eau",
+    "Enfourner pour 6 a 10 mins",
+    "Pendant ce temps, toaster les tranches de pain"
+  ]
+}

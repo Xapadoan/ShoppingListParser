@@ -1,0 +1,29 @@
+{
+    "name": "Salade Cesar",
+    "quantity": 4,
+    "ingredients": [
+        "1 salades romaine",
+        "2 filets de poulet",
+        "2 poignees de croutons",
+        "40 g Parmesan",
+        "1 jaune d'oeuf",
+        "1 cac moutarde",
+        "1/2 cac creme d'anchois",
+        "1 gousses d'ail",
+        "1 cac de capres",
+        "2 cac de jus de citron",
+        "1 cac de Parmesan",
+        "6 cas d'huile neutre",
+        "Poivre"
+    ],
+    "steps": [
+        "Couper les filets de poulet en des d'un cm et les faire cuire a la poele",
+        "Presser l'ail et hacher les capres",
+        "Préparez la sauce César : Dans un bol, fouettez le jaune d'œuf avec la moutarde, l'ail, la crème d'anchois, les câpres, le jus de citron et la Worcestershire. Puis, versez l'huile neutre ou douce, petit à petit, en fouettant comme pour monter une mayonnaise.",
+        "Goûtez et rectifiez : la sauce doit être relevée, onctueuse, légèrement salée. Réservez au frais le temps de préparer la salade.",
+        "Préparez les autres éléments : Lavez et essorez soigneusement la romaine, puis émincez-la. Coupez ensuite le poulet en lanières ou en dés.",
+        "Faites revenir des dés de pain rassis dans un peu d'huile d'olive jusqu'à ce qu'ils soient bien dorés et croustillants (7 à 8 minutes environ).",
+        "Assemblez : Dans un saladier, mélangez la romaine avec la sauce pour bien enrober les feuilles. Ajoutez les morceaux de poulet, les croûtons et les copeaux de Parmesan.",
+        "Donnez un dernier tour de poivre… et servez !"
+    ]
+}

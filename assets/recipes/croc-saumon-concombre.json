@@ -1,0 +1,17 @@
+{
+  "name": "Croc saumon concombre",
+  "quantity": 4,
+  "ingredients": [
+    "1 Concombre",
+    "4 cas Boursin",
+    "16 Tranches de pain",
+    "4 Tranches de saumon fume",
+    "1/2 concombre"
+  ],
+  "steps": [
+    "Couper le concombre en rondelles",
+    "Tartiner les tranches de pain de boursin",
+    "Disposer les tranches de concombre et de saumon sur les tartines puis les recouvrir d'une seconde tartine",
+    "Passer 2 mins au gaufrier"
+  ]
+}

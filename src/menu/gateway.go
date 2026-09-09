@@ -1,0 +1,48 @@
+package menu
+
+import (
+	"strings"
+
+	app "github.com/Xapadoan/shplsprsr/menu/application"
+	dom "github.com/Xapadoan/shplsprsr/menu/domain"
+	infra "github.com/Xapadoan/shplsprsr/menu/infrastructure"
+	pres "github.com/Xapadoan/shplsprsr/menu/presentation"
+
+	log "github.com/Xapadoan/shplsprsr/logger"
+	srv "github.com/Xapadoan/shplsprsr/server"
+)
+
+type MenuGateway struct {
+	logger log.ILogger
+}
+
+func NewMenuGateway(logger log.ILogger) *MenuGateway {
+	return &MenuGateway{logger}
+}
+
+func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
+	handler := pres.NewGetWeekMenuHandler(g.logger)
+	server.RegisterRoute(srv.Route{
+		Method: srv.GET,
+		Path:   "/menu/week/{id}",
+		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
+			words := strings.Split(url, "/")
+			req.Params = append(req.Params, words[3])
+
+			return nil
+		},
+		HandleRequest: handler.HandleGetWeekMenu,
+	})
+}
+
+func (g *MenuGateway) GetWeekMenu(id string) (*dom.WeekMenu, *dom.MenuError) {
+	repo := infra.NewFileMenuRepository("../assets/menus", g.logger)
+	useCase := app.NewGetWeekMenuUseCase(repo)
+	menu, err := useCase.Exec(id)
+	if err != nil {
+		g.logger.Warn("Failed to get menu", id)
+		return &dom.WeekMenu{}, err
+	}
+
+	return menu, nil
+}

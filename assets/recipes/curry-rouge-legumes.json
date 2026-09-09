@@ -1,0 +1,25 @@
+{
+    "name": "Curry rouge aux legumes",
+    "quantity": 4,
+    "ingredients": [
+        "2 cas Pate de curry rouge",
+        "3 cas huile de coco",
+        "400ml lait de coco",
+        "400g riz blanc",
+        "250g haricots verts",
+        "4 Poivrons rouges",
+        "1/2 botte de Coriandre",
+        "1/2 boite de pois chiches",
+        "100g Cacahuetes non sales",
+        "100g Noix de cajou non sales",
+        "(OPT) 4 Filets de Poulet"
+    ],
+    "steps": [
+        "Dans un fait tout, faire revenir la pate de curry avec l'huile de coco pendant 5 minutes a feu moyen",
+        "Pendant ce temps, taillez les poivrons en julienne et couper le poulet en morceaux de 2cm de cotes",
+        "Ajoutez le lait de coco, les haricots verts, les pois chiches, les poivrons et le poulet et laissez mijoter 35 minutes",
+        "Pendant ce temps, faites cuire le riz facon pilaf, concasser les noix de cajou et cacahuetes et ciseler la coriandre",
+        "Ajouter la coriandre et laisser mijoter 5 minutes de plus",
+        "Servir en mettant la sauce a cote du riz dans une assiette creuse, et parsemer la sauce des noix concasses"
+    ]
+}

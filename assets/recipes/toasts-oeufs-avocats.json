@@ -1,0 +1,17 @@
+{
+    "name": "Toast Oeufs avocats",
+    "quantity": 4,
+    "ingredients": [
+        "1 Avocat(s)",
+        "4 Oeuf(s)",
+        "4 tranches Pain de mie complet",
+        "4 feuilles Salade au choix",
+        "Sel",
+        "Poivre"
+    ],
+    "steps": [
+        "Toastez légèrement le pain de mie pour que la tartine soit solide.",
+        "Pelez et dénoyautez l'avocat, écrasez la chair en purée, salez et poivrez. Nappez-en les toasts. Ajoutez quelques feuilles de salade dessus.",
+        "Faites cuire les 4 œufs au plat dans une poêle huilée. Déposez-en un sur chaque toast. Salez, poivrez, dégustez."
+    ]
+}

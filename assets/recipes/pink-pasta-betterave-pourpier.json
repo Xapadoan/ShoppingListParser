@@ -1,0 +1,20 @@
+{
+    "name": "Pink Pasta, betterave et Pourpier",
+    "quantity": 4,
+    "ingredients": [
+        "400g spaghettis",
+        "230 g betterave cuite",
+        "2 poignées pourpier",
+        "110 g tofu soyeux",
+        "1 cas huile de noix",
+        "1 pincée paprika",
+        "Sel",
+        "Poivre"
+    ],
+    "steps": [
+        "Mixez longuement la betterave avec le tofu, l'huile, le paprika, du sel et du poivre, jusqu'à l'obtention d'une crème onctueuse et lisse.",
+        "Faites cuire les pâtes al dente dans une casserole d'eau bouillante, puis égouttez-les en conservant un peu d'eau de cuisson.",
+        "Mélangez les pâtes avec la crème à la betterave, en ajoutant un peu d'eau si besoin pour obtenir une sauce bien enveloppante.",
+        "Rincez rapidement le pourpier puis essorez-le délicatement dans un torchon propre. Mélangez-le aux pâtes au dernier moment. Servez immédiatement."
+    ]
+}

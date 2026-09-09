@@ -1,0 +1,22 @@
+{
+  "name": "Coleslaw",
+  "quantity": 4,
+  "ingredients": [
+    "1/2 Chou blanc",
+    "2 Carottes",
+    "2 cas Yaourt grec",
+    "3 cas Mayonaise",
+    "Vinaigre vin rouge",
+    "Sel",
+    "Poivre"
+  ],
+  "steps": [
+    "Retirez les premières feuilles du chou blanc. Coupez-le en quartiers et retirez le cœur dur.",
+    "Râpez finement le chou à la mandoline. ( égouttez-le) Plus il est fin, plus la salade sera meilleure.",
+    "Épluchez et râpez finement les carottes. Mélangez-les au chou blanc dans un grand saladier.",
+    "Préparer la sauce coleslaw traditionnelle : mélangez la mayonnaise, le yaourt, le vinaigre. sel et poivre",
+    "Versez la sauce sur le mélange chou-carotte. Mélangez pour bien enrober tous les ingrédients.",
+    "Couvrez et laissez reposer au réfrigérateur au moins 1 heure avant de servir."
+  ],
+  "anticipation": "1h"
+}

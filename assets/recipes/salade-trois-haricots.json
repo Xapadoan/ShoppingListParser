@@ -1,0 +1,26 @@
+{
+  "name": "Salade trois haricots",
+  "quantity": 4,
+  "ingredients": [
+    "250g Haricots verts",
+    "250g Haricots rouges",
+    "250g Pois chiches",
+    "2 cas Vinaigre de cidre",
+    "1 Citron vert",
+    "2 gousses d'ail",
+    "2 cas moutarde de Dijon",
+    "2 cas miel",
+    "Sel",
+    "Poivre",
+    "5 cas Huile d'olive",
+    "1 Oignon rouge",
+    "1 botte persil plat"
+  ],
+  "steps": [
+    "Mettre un grand volume d'eau saler a bouillir, couper les haricots verts en sections de 3-4 cm de long et les plonger dans l'eau bouillante jusqu'a ce qu'ils soient cuits mais croquants (1-2 mins)",
+    "Sortir les haricots avec un egoutoir et laisser refroidir dans de l'eau froide",
+    "Presser l'ail et le citron et melanger dans un saladier avec le vinaigre, la moutarde, le miel, le sel et poivre jusqu'a obtenir un melange homogene",
+    "Ajouter lentement d'huile d'olive en fouetant pour obtenir un emulsion",
+    "Ajouter les haricots verts, rouges et pois chiches, bien melanger et laisser reposer au frais pendant 30mins"
+  ]
+}

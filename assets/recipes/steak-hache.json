@@ -1,0 +1,14 @@
+{
+    "name": "Steak hache",
+    "quantity": 4,
+    "ingredients": [
+        "4 steaks haches",
+        "Sel",
+        "Poivre",
+        "2 cas Huile d'olive"
+    ],
+    "steps": [
+        "Saisir les steaks haches dans une poele avec l'huile d'olive",
+        "Saler et poivrer a convence"
+    ]
+}

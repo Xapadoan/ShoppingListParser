@@ -1,0 +1,24 @@
+{
+    "name": "Salade tomates, mozza, fraises et vinaigrette à la grenade",
+    "quantity": 4,
+    "ingredients": [
+        "800 g tomates anciennes",
+        "250 g fraises",
+        "150 g graines de grenade",
+        "2 poignées jeunes pousses",
+        "2 boules de mozzarella",
+        "50 g d'amandes effilées grillées",
+        "1 botte de menthe",
+        "3 cuillère(s) à soupe de jus de grenade",
+        "2 cuillère(s) à soupe d'huile de noisette",
+        "2 cuillère(s) à soupe de vinaigre de cidre",
+        "1 cuillère(s) à café de moutarde",
+        "1 cuillère(s) à soupe de graines de grenade"
+    ],
+    "steps": [
+        "Lavez et séchez les tomates, puis coupez-les en tranches. Lavez et équeutez les fraises, puis coupez-les en deux. Lavez, séchez et ciselez la menthe.",
+        "Dans un saladier ou un grand plat, disposez les tomates et les fraises, ajoutez les graines de grenade et les jeunes pousses. Terminez par les mozzarella coupées en tranches. Parsemez d'amandes et de menthe.",
+        "Préparez la vinaigrette en mélangeant tous les ingrédients.",
+        "Au moment de servir, arrosez la salade de sauce à la grenade."
+    ]
+}

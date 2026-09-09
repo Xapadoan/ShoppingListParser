@@ -1,0 +1,13 @@
+{
+    "Name": "Fromage blanc, flocons d'avoine et fruits",
+    "quantity": 4,
+    "ingredients": [
+        "400mL Fromage blanc",
+        "200g Flocons d'avoine",
+        "4 fruits au choix"
+    ],
+    "steps": [
+        "Couper les fruits en morceaux",
+        "Tout melanger"
+    ]
+}

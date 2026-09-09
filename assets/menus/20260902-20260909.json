@@ -1,0 +1,37 @@
+{
+  "Monday": {
+    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Ratatouille et merguez", "RecipeIds": ["ratatouille", "merguez-poele"] },
+    "Dinner": { "Title": "Salade de pates sauce deesse verte", "RecipeIds": ["salade-pates-sauce-deesse-verte"] }
+  },
+  "Tuesday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Ratatouille et merguez", "RecipeIds": ["ratatouille", "merguez-poele"] },
+    "Dinner": { "Title": "Salade de pates sauce deesse verte", "RecipeIds": ["salade-pates-sauce-deesse-verte"] }
+  },
+  "Wednesday": {
+    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Ratatouille et merguez", "RecipeIds": ["ratatouille", "merguez-poele"] },
+    "Dinner": { "Title": "Fondue de poireaux", "RecipeIds": ["fondue-de-poireaux"] }
+  },
+  "Thursday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Pad Thai Froid", "RecipeIds": ["pad-thai-froid"] },
+    "Dinner": { "Title": "Fondue de poireaux", "RecipeIds": ["fondue-de-poireaux"] }
+  },
+  "Friday": {
+    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Pad Thai Froid", "RecipeIds": ["pad-thai-froid"] },
+    "Dinner": { "Title": "Quiche poulet et champignons", "RecipeIds": ["quiche-poulet-champignon", "pate-brisee-maison"] }
+  },
+  "Saturday": {
+    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    "Lunch": { "Title": "Quiche poulet et champignons", "RecipeIds": ["quiche-poulet-champignon", "pate-brisee-maison"] },
+    "Dinner": { "Title": "Tourte a la viande et Salade de Knepfs", "RecipeIds": ["tourte-viande", "salade-knepfs-courgettes-haricots", "knepfs", "pate-brisee-maison"] }
+  },
+  "Sunday": {
+    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    "Lunch": { "Title": "Restes", "RecipeIds": [] },
+    "Dinner": { "Title": "Tourte a la viande et Salade de Knepfs", "RecipeIds": ["tourte-viande", "salade-knepfs-courgettes-haricots", "knepfs", "pate-brisee-maison"] }
+  }
+}
