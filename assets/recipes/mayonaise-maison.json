@@ -1,0 +1,21 @@
+{
+  "name": "Mayonaise maison",
+  "quantity": 4,
+  "ingredients": [
+    "1 jaune d'oeuf",
+    "20g moutarde",
+    "15ml vinaigre de vin",
+    "175ml huild d'olive",
+    "100ml huile de tournesol",
+    "Sel",
+    "Poivre"
+  ],
+  "steps": [
+    "Dans un bol pas trop large (important pour que l'émulsion prenne bien), déposez le jaune d'oeuf, la moutarde et le vinaigre. Fouettez vigoureusement pendant 30 secondes.",
+    "Laissez reposer 30 mins pour que les ingredients soient tous a temperature ambiante et favoriser l'emulsion",
+    "Versez l'huile en filet très fin, au départ goutte à goutte, tout en fouettant au robot sans relâche. Lorsque la mayonnaise commence à prendre, vous pouvez verser plus rapidement.",
+    "Continuez jusqu'à obtenir une sauce brillante, élastique, ferme mais souple.",
+    "Assaisonner avec le sel et le poivre",
+    "Filmez au contact et gardez au frais si vous ne la servez pas immédiatement."
+  ]
+}

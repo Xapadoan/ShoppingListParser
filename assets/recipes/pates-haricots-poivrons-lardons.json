@@ -1,0 +1,18 @@
+{
+  "Name": "Pates, haricots, poivrons et lardons",
+  "Quantity": 4,
+  "Ingredients": [
+    "600g pates completes",
+    "500g haricots verts",
+    "3 poivrons rouges",
+    "150g lardons",
+    "2cas herbes de provence",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Couper les poivrons en julienne et les faire cuire a la poele a feu doux avec les herbes de provence et les haricots verts",
+    "Pendant ce temps, couper les lardons si necessaire",
+    "Lorsque les haricots sont bien fondants, ajouter les lardons et laisser cuire quelques minutes"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "Salade libanaise",
+  "Quantity": 4,
+  "Ingredients": [
+    "1 1/2 boites pois chiches",
+    "1 1/2 boites haricots rouges",
+    "400g betteraves rouges",
+    "2 citrons verts",
+    "huile d'olive",
+    "2 cac moutarde",
+    "1 botte persil",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Couper les betteraves en des d'un cm de cote et hacher le persil, puis verser dans un saladier avec les pois chiches et les haricots",
+    "Dans un bol, presser les citrons verts, ajouter la moutarde et foueter",
+    "Ajouter l'huile d'olive en filet fin en continuant de foueter",
+    "Saler, poivrer puis verser la vinaigrette dans le saladier. Melanger pour bien repartir la sauce"
+  ]
+}
