@@ -37,10 +37,10 @@ func (p *AmountUnitNameParser) Parse(text string) (*ing.IngredientQuantity, *dom
 	unit, ratio := parseUnitAndRatio(matchs[2])
 
 	p.logger.Debug("AmountUnitName parser success")
-	return &ing.IngredientQuantity{Name: matchs[3], Amount: uint16(quantity) * ratio, Unit: unit}, nil
+	return &ing.IngredientQuantity{Name: matchs[3], Amount: float32(quantity) * ratio, Unit: unit}, nil
 }
 
-func parseUnitAndRatio(text string) (ing.IngredientUnit, uint16) {
+func parseUnitAndRatio(text string) (ing.IngredientUnit, float32) {
 	switch text {
 	case "g":
 		return ing.Gram, 1

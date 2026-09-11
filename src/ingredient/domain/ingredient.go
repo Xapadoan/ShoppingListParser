@@ -40,7 +40,7 @@ func (u *IngredientUnit) MarshalJSON() ([]byte, error) {
 
 type IngredientQuantity struct {
 	Name   string
-	Amount uint16
+	Amount float32
 	Unit   IngredientUnit
 }
 
