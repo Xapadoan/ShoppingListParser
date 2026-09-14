@@ -42,7 +42,7 @@ func (r *Recipe) Steps() []string {
 func (r *Recipe) AdaptQuantity(numberOfPeopleEating uint16) *Recipe {
 	recipe := Recipe{r.name, r.numberOfPeopleEating, r.ingredients, r.steps}
 	for _, ing := range recipe.ingredients {
-		ing.Amount = ing.Amount * numberOfPeopleEating / uint16(r.numberOfPeopleEating)
+		ing.Amount = ing.Amount * float32(numberOfPeopleEating) / float32(r.numberOfPeopleEating)
 	}
 
 	return &recipe

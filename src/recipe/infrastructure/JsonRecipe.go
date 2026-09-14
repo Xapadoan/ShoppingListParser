@@ -67,7 +67,7 @@ func nameAmountUnitName(text string) (*ing.IngredientQuantity, *dom.RecipeError)
 
 	unit, ratio := parseUnitAndRatio(matches[3])
 
-	return &ing.IngredientQuantity{Name: strings.ToLower(matches[1]), Amount: uint16(quantity) * ratio, Unit: unit}, nil
+	return &ing.IngredientQuantity{Name: strings.ToLower(matches[1]), Amount: float32(quantity) * ratio, Unit: unit}, nil
 }
 
 func amountUnitNameParser(text string) (*ing.IngredientQuantity, *dom.RecipeError) {
@@ -86,10 +86,10 @@ func amountUnitNameParser(text string) (*ing.IngredientQuantity, *dom.RecipeErro
 
 	unit, ratio := parseUnitAndRatio(matches[2])
 
-	return &ing.IngredientQuantity{Name: strings.ToLower(matches[4]), Amount: uint16(quantity) * ratio, Unit: unit}, nil
+	return &ing.IngredientQuantity{Name: strings.ToLower(matches[4]), Amount: float32(quantity) * ratio, Unit: unit}, nil
 }
 
-func parseUnitAndRatio(text string) (ing.IngredientUnit, uint16) {
+func parseUnitAndRatio(text string) (ing.IngredientUnit, float32) {
 	switch text {
 	case "kg":
 		return ing.Gram, 1000
