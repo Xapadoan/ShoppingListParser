@@ -61,7 +61,7 @@ func NewFileMenuRepository(assetsPath string, logger log.ILogger) *FileMenuRepos
 	return &FileMenuRepository{assetsPath, logger}
 }
 
-func (repo *FileMenuRepository) GetWeekMenu(id string) (*WeekMenu, *dom.MenuError) {
+func (repo *FileMenuRepository) GetMenuCollection(id string) (*dom.MenuCollection, *dom.MenuError) {
 	path := repo.assetsPath + "/" + id + ".json"
 	repo.logger.Debug("Finding File: ", path)
 	_, statErr := os.Stat(path)
@@ -79,22 +79,12 @@ func (repo *FileMenuRepository) GetWeekMenu(id string) (*WeekMenu, *dom.MenuErro
 		return nil, &dom.MenuError{Code: dom.FetchFailed}
 	}
 
-	var menu WeekMenu
-	jsonError := json.Unmarshal(data, &menu)
+	var collection dom.MenuCollection
+	jsonError := json.Unmarshal(data, &collection)
 	if jsonError != nil {
 		repo.logger.Warn("Invalid data in file ", path)
 		return nil, &dom.MenuError{Code: dom.InvalidData}
 	}
 
-	return &menu, nil
-}
-
-func (repo *FileMenuRepository) GetMenuCollection(id string) (*dom.MenuCollection, *dom.MenuError) {
-	weekMenu, err := repo.GetWeekMenu(id)
-	if err != nil {
-		repo.logger.Warn("Failed to parse raw file for id", id)
-		return nil, err
-	}
-
-	return weekMenu.Adapter(id), nil
+	return &collection, nil
 }

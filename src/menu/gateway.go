@@ -27,7 +27,7 @@ func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
 		Path:   "/menu/{id}",
 		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
 			words := strings.Split(url, "/")
-			req.Params = append(req.Params, words[3])
+			req.Params = append(req.Params, words[2])
 
 			return nil
 		},
