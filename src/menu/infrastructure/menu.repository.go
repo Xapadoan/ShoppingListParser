@@ -9,49 +9,6 @@ import (
 	dom "github.com/Xapadoan/shplsprsr/menu/domain"
 )
 
-type DayMenu struct {
-	Breakfast dom.MealMenu
-	Lunch     dom.MealMenu
-	Dinner    dom.MealMenu
-}
-
-type WeekMenu struct {
-	Monday    DayMenu
-	Tuesday   DayMenu
-	Wednesday DayMenu
-	Thursday  DayMenu
-	Friday    DayMenu
-	Saturday  DayMenu
-	Sunday    DayMenu
-}
-
-func (weekMenu *WeekMenu) Adapter(id string) *dom.MenuCollection {
-	menus := []*dom.MealMenu{}
-	menus = append(menus, &weekMenu.Monday.Breakfast)
-	menus = append(menus, &weekMenu.Monday.Lunch)
-	menus = append(menus, &weekMenu.Monday.Dinner)
-	menus = append(menus, &weekMenu.Tuesday.Breakfast)
-	menus = append(menus, &weekMenu.Tuesday.Lunch)
-	menus = append(menus, &weekMenu.Tuesday.Dinner)
-	menus = append(menus, &weekMenu.Wednesday.Breakfast)
-	menus = append(menus, &weekMenu.Wednesday.Lunch)
-	menus = append(menus, &weekMenu.Wednesday.Dinner)
-	menus = append(menus, &weekMenu.Thursday.Breakfast)
-	menus = append(menus, &weekMenu.Thursday.Lunch)
-	menus = append(menus, &weekMenu.Thursday.Dinner)
-	menus = append(menus, &weekMenu.Friday.Breakfast)
-	menus = append(menus, &weekMenu.Friday.Lunch)
-	menus = append(menus, &weekMenu.Friday.Dinner)
-	menus = append(menus, &weekMenu.Saturday.Breakfast)
-	menus = append(menus, &weekMenu.Saturday.Lunch)
-	menus = append(menus, &weekMenu.Saturday.Dinner)
-	menus = append(menus, &weekMenu.Sunday.Breakfast)
-	menus = append(menus, &weekMenu.Sunday.Lunch)
-	menus = append(menus, &weekMenu.Sunday.Dinner)
-
-	return &dom.MenuCollection{Id: id, Menus: menus}
-}
-
 type FileMenuRepository struct {
 	assetsPath string
 	logger     log.ILogger
