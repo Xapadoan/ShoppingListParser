@@ -8,7 +8,7 @@ import (
 
 type IMenuGateway interface {
 	RegisterRoutes(server srv.IServeHttp)
-	GetWeekMenu(id string) (*dom.MenuCollection, *dom.MenuError)
+	GetMenuCollection(id string) (*dom.MenuCollection, *dom.MenuError)
 }
 
 type MealMenu = dom.MealMenu

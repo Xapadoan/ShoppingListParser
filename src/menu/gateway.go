@@ -21,21 +21,21 @@ func NewMenuGateway(logger log.ILogger) *MenuGateway {
 }
 
 func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
-	handler := pres.NewGetWeekMenuHandler(g.logger)
+	handler := pres.NewGetMenuCollectionHandler(g.logger)
 	server.RegisterRoute(srv.Route{
 		Method: srv.GET,
-		Path:   "/menu/week/{id}",
+		Path:   "/menu/{id}",
 		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
 			words := strings.Split(url, "/")
 			req.Params = append(req.Params, words[3])
 
 			return nil
 		},
-		HandleRequest: handler.HandleGetWeekMenu,
+		HandleRequest: handler.HandleGetMenuCollection,
 	})
 }
 
-func (g *MenuGateway) GetWeekMenu(id string) (*dom.MenuCollection, *dom.MenuError) {
+func (g *MenuGateway) GetMenuCollection(id string) (*dom.MenuCollection, *dom.MenuError) {
 	repo := infra.NewFileMenuRepository("../assets/menus", g.logger)
 	useCase := app.NewGetMenuCollectionUsecase(repo.GetMenuCollection)
 	menu, err := useCase.Exec(id)
