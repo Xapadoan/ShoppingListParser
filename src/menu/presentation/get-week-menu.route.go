@@ -26,7 +26,7 @@ func (h *GetWeekMenuHandler) HandleGetWeekMenu(req *srv.RouteRequest, res *srv.R
 	}
 
 	repo := infra.NewFileMenuRepository("../assets/menus", h.logger)
-	usecase := app.NewGetWeekMenuUseCase(repo)
+	usecase := app.NewGetWeekMenuUseCase(repo.GetMenuCollection)
 	menu, usecaseErr := usecase.Exec(req.Params[0])
 	if usecaseErr != nil && usecaseErr.Code == dom.NotFound {
 		h.logger.Debug("Menu with id", req.Params[0], "not found")

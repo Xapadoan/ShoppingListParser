@@ -35,13 +35,13 @@ func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
 	})
 }
 
-func (g *MenuGateway) GetWeekMenu(id string) (*dom.WeekMenu, *dom.MenuError) {
+func (g *MenuGateway) GetWeekMenu(id string) (*dom.MenuCollection, *dom.MenuError) {
 	repo := infra.NewFileMenuRepository("../assets/menus", g.logger)
-	useCase := app.NewGetWeekMenuUseCase(repo)
+	useCase := app.NewGetWeekMenuUseCase(repo.GetMenuCollection)
 	menu, err := useCase.Exec(id)
 	if err != nil {
 		g.logger.Warn("Failed to get menu", id)
-		return &dom.WeekMenu{}, err
+		return nil, err
 	}
 
 	return menu, nil

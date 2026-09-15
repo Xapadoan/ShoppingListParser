@@ -5,18 +5,18 @@ import (
 )
 
 type GetWeekMenuUseCase struct {
-	repo dom.IGetWeekMenu
+	getMenuCollection dom.IGetMenuCollection
 }
 
-func (u *GetWeekMenuUseCase) Exec(id string) (*dom.WeekMenu, *dom.MenuError) {
-	menu, err := u.repo.GetWeekMenu(id)
+func (u *GetWeekMenuUseCase) Exec(id string) (*dom.MenuCollection, *dom.MenuError) {
+	menu, err := u.getMenuCollection(id)
 	if err != nil {
-		return &dom.WeekMenu{}, err
+		return nil, err
 	}
 
 	return menu, nil
 }
 
-func NewGetWeekMenuUseCase(repo dom.IGetWeekMenu) *GetWeekMenuUseCase {
-	return &GetWeekMenuUseCase{repo: repo}
+func NewGetWeekMenuUseCase(getMenuCollection dom.IGetMenuCollection) *GetWeekMenuUseCase {
+	return &GetWeekMenuUseCase{getMenuCollection}
 }

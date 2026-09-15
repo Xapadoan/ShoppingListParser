@@ -5,18 +5,8 @@ type MealMenu struct {
 	RecipeIds []string
 }
 
-type DayMenu struct {
-	Breakfast MealMenu
-	Lunch     MealMenu
-	Dinner    MealMenu
+type MenuCollection struct {
+	Id    string
+	Menus []*MealMenu
 }
 
-type WeekMenu struct {
-	Monday    DayMenu
-	Tuesday   DayMenu
-	Wednesday DayMenu
-	Thursday  DayMenu
-	Friday    DayMenu
-	Saturday  DayMenu
-	Sunday    DayMenu
-}
