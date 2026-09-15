@@ -1,5 +1,3 @@
 package domain
 
-type IGetWeekMenu interface {
-	GetWeekMenu(id string) (*WeekMenu, *MenuError)
-}
+type IGetMenuCollection = func(id string) (*MenuCollection, *MenuError)
