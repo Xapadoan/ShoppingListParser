@@ -1,37 +1,26 @@
 {
-  "Monday": {
-    "Breakfast": { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
-    "Lunch": { "Title": "Lasagnes ricotta epinards", "RecipeIds": ["lasagnes-ricotta-epinards"] },
-    "Dinner": { "Title": "Pates, haricots poivrons lardons", "RecipeIds": ["pates-haricots-poivrons-lardons"] }
-  },
-  "Tuesday": {
-    "Breakfast": { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
-    "Lunch": { "Title": "Lasagnes ricotta epinards", "RecipeIds": ["lasagnes-ricotta-epinards"] },
-    "Dinner": { "Title": "Pates, haricots poivrons lardons", "RecipeIds": ["pates-haricots-poivrons-lardons"] }
-  },
-  "Wednesday": {
-    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
-    "Lunch": { "Title": "Galettes de brocolis et poulet marine a la moutarde", "RecipeIds": ["galettes-brocolis", "poulet-marine-dijonaise"] },
-    "Dinner": { "Title": "Quiche tomate et chevre", "RecipeIds": ["quiche-tomates-chevre", "pate-brisee-maison"] }
-  },
-  "Thursday": {
-    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
-    "Lunch": { "Title": "Galettes de brocolis et poulet marine a la moutarde", "RecipeIds": ["galettes-brocolis", "poulet-marine-dijonaise"] },
-    "Dinner": { "Title": "Curry rouge vegetarien", "RecipeIds": ["curry-rouge-legumes"] }
-  },
-  "Friday": {
-    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
-    "Lunch": { "Title": "Chaussons de canard confi et salade de pates pesto aux crevettes", "RecipeIds": ["chaussons-canard-confi","salade-pesto-crevettes"] },
-    "Dinner": { "Title": "Curry rouge vegetarien", "RecipeIds": ["curry-rouge-legumes"] }
-  },
-  "Saturday": {
-    "Breakfast": { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
-    "Lunch": { "Title": "Salades picnic (libanaise, mangue jambon cru mozza, salade patates et haricots verts)", "RecipeIds": ["salade-libanaise", "salade-mangue-jambon-mozza", "salade-patates-haricots-verts-cervela"] },
-    "Dinner": { "Title": "Resto", "RecipeIds": [] }
-  },
-  "Sunday": {
-    "Breakfast": { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
-    "Lunch": { "Title": "Burgers Vege", "RecipeIds": ["burger-tofu-marine-croustillant", "oignons-rouges-marines", "frites-maison", "mayonaise-maison"] },
-    "Dinner": { "Title": "Burgers Vege", "RecipeIds": ["burger-tofu-marine-croustillant", "oignons-rouges-marines", "frites-maison", "mayonaise-maison"] }
-  }
+  "Id": "test",
+  "Menus": [
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Lasagnes ricotta epinards", "RecipeIds": ["lasagnes-ricotta-epinards"] },
+    { "Title": "Pates, haricots poivrons lardons", "RecipeIds": ["pates-haricots-poivrons-lardons"] },
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Lasagnes ricotta epinards", "RecipeIds": ["lasagnes-ricotta-epinards"] },
+    { "Title": "Pates, haricots poivrons lardons", "RecipeIds": ["pates-haricots-poivrons-lardons"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Galettes de brocolis et poulet marine a la moutarde", "RecipeIds": ["galettes-brocolis", "poulet-marine-dijonaise"] },
+    { "Title": "Quiche tomate et chevre", "RecipeIds": ["quiche-tomates-chevre", "pate-brisee-maison"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Galettes de brocolis et poulet marine a la moutarde", "RecipeIds": ["galettes-brocolis", "poulet-marine-dijonaise"] },
+    { "Title": "Curry rouge vegetarien", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Chaussons de canard confi et salade de pates pesto aux crevettes", "RecipeIds": ["chaussons-canard-confi","salade-pesto-crevettes"] },
+    { "Title": "Curry rouge vegetarien", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Salades picnic (libanaise, mangue jambon cru mozza, salade patates et haricots verts)", "RecipeIds": ["salade-libanaise", "salade-mangue-jambon-mozza", "salade-patates-haricots-verts-cervela"] },
+    { "Title": "Resto", "RecipeIds": [] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Burgers Vege", "RecipeIds": ["burger-tofu-marine-croustillant", "oignons-rouges-marines", "frites-maison", "mayonaise-maison"] },
+    { "Title": "Burgers Vege", "RecipeIds": ["burger-tofu-marine-croustillant", "oignons-rouges-marines", "frites-maison", "mayonaise-maison"] }
+  ]
 }
