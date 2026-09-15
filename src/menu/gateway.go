@@ -37,7 +37,7 @@ func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
 
 func (g *MenuGateway) GetWeekMenu(id string) (*dom.MenuCollection, *dom.MenuError) {
 	repo := infra.NewFileMenuRepository("../assets/menus", g.logger)
-	useCase := app.NewGetWeekMenuUseCase(repo.GetMenuCollection)
+	useCase := app.NewGetMenuCollectionUsecase(repo.GetMenuCollection)
 	menu, err := useCase.Exec(id)
 	if err != nil {
 		g.logger.Warn("Failed to get menu", id)
