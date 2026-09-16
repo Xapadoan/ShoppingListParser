@@ -1,0 +1,9 @@
+{
+  "Name": "Portion de pates",
+  "Quantity": 4,
+  "Ingredients": ["400g pates"],
+  "Steps": [
+    "Porter un grand volume d'eau salee a ebulition et y plonger les pates le temps indique sur le paquet",
+    "En fin de cuisson, passer les pates et les plonger dans de l'eau froide afin de stopper la cuisson et de retirer le surplus d'amidon"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Id": "test",
+  "Menus": [
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Spaghetti complettes au potiron", "RecipeIds": ["spaghetti-potiron"] },
+    { "Title": "Orecchiettes pois chiches brocolis", "RecipeIds": ["orecchiettes-pois-chiches-brocolis"] },
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Spaghetti complettes au potiron", "RecipeIds": ["spaghetti-potiron"] },
+    { "Title": "Orecchiettes pois chiches brocolis", "RecipeIds": ["orecchiettes-pois-chiches-brocolis"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Pates et confi d'aubergines", "RecipeIds": ["portion-pates", "confi-aubergine"] },
+    { "Title": "Plaque de legumes et pates", "RecipeIds": ["plaque-legumes-four", "portion-pates"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Pates et confi d'aubergines", "RecipeIds": ["portion-pates", "confi-aubergine"] },
+    { "Title": "Plaque de legumes et pates", "RecipeIds": ["plaque-legumes-four", "portion-pates"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Julienne de courgettes / butternut et poulet", "RecipeIds": ["julienne-courgette-butternut-poulet"] },
+    { "Title": "Wellington Vegetarien et salade", "RecipeIds": ["wellington-vegetarien", "salade-verte-tomate"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Julienne de courgettes / butternut et poulet", "RecipeIds": ["julienne-courgette-butternut-poulet"] },
+    { "Title": "Wellington Vegetarien et salade", "RecipeIds": ["wellington-vegetarien", "salade-verte-tomate"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Blanquette de veau", "RecipeIds": ["blanquette-de-veau"] },
+    { "Title": "Blanquette de veau", "RecipeIds": ["blanquette-de-veau"] }
+  ]
+}
