@@ -2,15 +2,15 @@ package ingredient
 
 import dom "github.com/Xapadoan/shplsprsr/ingredient/domain"
 
-type IngredientUnit = dom.IngredientUnit
+type Unit = dom.Unit
 
 const (
-	Undefined  IngredientUnit = dom.Undefined
-	Gram                      = dom.Gram
-	Milliliter                = dom.Milliliter
-	Cas                       = dom.Cas
-	Cac                       = dom.Cac
-	Unit                      = dom.Unit
+	Unit_Undefined  Unit = dom.Unit_Undefined
+	Unit_Gram            = dom.Unit_Gram
+	Unit_Milliliter      = dom.Unit_Milliliter
+	Unit_Cas             = dom.Unit_Cas
+	Unit_Cac             = dom.Unit_Cac
+	Unit_Unit            = dom.Unit_Unit
 )
 
 type IngredientQuantity = dom.IngredientQuantity
