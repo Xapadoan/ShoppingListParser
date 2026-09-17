@@ -89,21 +89,21 @@ func amountUnitNameParser(text string) (*ing.IngredientQuantity, *dom.RecipeErro
 	return &ing.IngredientQuantity{Name: strings.ToLower(matches[4]), Amount: float32(quantity) * ratio, Unit: unit}, nil
 }
 
-func parseUnitAndRatio(text string) (ing.IngredientUnit, float32) {
+func parseUnitAndRatio(text string) (ing.Unit, float32) {
 	switch text {
 	case "kg":
-		return ing.Gram, 1000
+		return ing.Unit_Gram, 1000
 	case "g":
-		return ing.Gram, 1
+		return ing.Unit_Gram, 1
 	case "ml", "mL":
-		return ing.Milliliter, 1
+		return ing.Unit_Milliliter, 1
 	case "cl", "cL":
-		return ing.Milliliter, 10
+		return ing.Unit_Milliliter, 10
 	case "cas", "Cas":
-		return ing.Cas, 1
+		return ing.Unit_Cas, 1
 	case "cac", "Cac":
-		return ing.Cac, 1
+		return ing.Unit_Cac, 1
 	default:
-		return ing.Unit, 1
+		return ing.Unit_Unit, 1
 	}
 }
