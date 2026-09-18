@@ -25,7 +25,7 @@ func parseDecimalAmount(pattern string) (float32, error) {
 		return 0, &IngredientError{ParsingFailed, "Atoi failed for pattern \"" + pattern + "\": \n" + numeratorError.Error()}
 	}
 	denumerator, denumeratorError := strconv.Atoi(strings.Trim(integers[1], " "))
-	if numeratorError != nil {
+	if denumeratorError != nil {
 		return 0, &IngredientError{ParsingFailed, "Atoi failed for pattern \"" + pattern + "\": \n" + denumeratorError.Error()}
 	}
 	return float32(numerator) / float32(denumerator), nil
@@ -80,4 +80,20 @@ func AmountRecognitionRegexp() string {
 	}
 
 	return strings.Join(patterns, "|")
+}
+
+func ParseAmount(recognizedPattern string) (float32, error) {
+	for testPattern, parseFunction := range amountRecognitionMap() {
+		regex := regexp.MustCompile(testPattern)
+		if regex.Match([]byte(recognizedPattern)) {
+			amount, amountErr := parseFunction(recognizedPattern)
+			if amountErr != nil {
+				return 0, amountErr
+			}
+
+			return amount, nil
+		}
+	}
+
+	return 0, &IngredientError{ParsingFailed, "recognized pattern \"" + recognizedPattern + "\" has no parsing function mapped"}
 }

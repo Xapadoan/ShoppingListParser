@@ -26,6 +26,16 @@ func UnitRecognitionSamples() []TestSample {
 	}
 }
 
+func AmountRecognizedPatternSamples() []TestSample {
+	return []TestSample{
+		{"3", &dom.IngredientQuantity{Amount: 3, Unit: dom.Unit_Unit, Name: "Courgettes"}},
+		{"1/2", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Unit, Name: "Citrons"}},
+		{"½", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Cac, Name: "Curcuma"}},
+		{"1 1/2", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Unit, Name: "Botte de persil"}},
+		{"¼", &dom.IngredientQuantity{Amount: 0.25, Unit: dom.Unit_Cac, Name: "Cumin"}},
+	}
+}
+
 func RealLifeSamples() []TestSample {
 	return []TestSample{
 		{"3 Courgettes", &dom.IngredientQuantity{Amount: 3, Unit: dom.Unit_Unit, Name: "Courgettes"}},
