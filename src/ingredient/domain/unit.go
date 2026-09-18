@@ -60,7 +60,7 @@ func unitStringRecognitionMap() map[string]unitConversionRatio {
 	}
 }
 
-func UnitRecognitionRegex() string {
+func UnitRecognitionRegexp() string {
 	var patterns []string
 
 	for key := range unitStringRecognitionMap() {
