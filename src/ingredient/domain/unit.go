@@ -77,6 +77,16 @@ func UnitRecognitionRegexp() string {
 	return strings.Join(patterns, "|")
 }
 
+func ParseUnitAndRatio(recognizedPattern string) (*UnitConversionRatio, *IngredientError) {
+	for _, unitAndRatioRecognition := range unitAndRatioRecognitionArray() {
+		if unitAndRatioRecognition.pattern == recognizedPattern {
+			return &unitAndRatioRecognition.unitAndRatio, nil
+		}
+	}
+
+	return nil, &IngredientError{ParsingFailed, "Recognized pattern \"" + recognizedPattern + "\""}
+}
+
 func (u *Unit) MarshalJSON() ([]byte, error) {
 	return []byte("\"" + u.String() + "\""), nil
 }
