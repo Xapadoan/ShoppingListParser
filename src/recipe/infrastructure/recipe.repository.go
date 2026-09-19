@@ -5,18 +5,20 @@ import (
 	"errors"
 	"os"
 
+	ing "github.com/Xapadoan/shplsprsr/ingredient"
 	log "github.com/Xapadoan/shplsprsr/logger"
 
 	dom "github.com/Xapadoan/shplsprsr/recipe/domain"
 )
 
 type FileRecipeRepository struct {
-	assetsPath string
-	logger     log.ILogger
+	assetsPath              string
+	parseIngredientQuantity ing.IParseIngredientQuantity
+	logger                  log.ILogger
 }
 
-func NewFileRecipeRepository(assetsPath string, logger log.ILogger) *FileRecipeRepository {
-	return &FileRecipeRepository{assetsPath, logger}
+func NewFileRecipeRepository(assetsPath string, parseIngredientQuantity ing.IParseIngredientQuantity, logger log.ILogger) *FileRecipeRepository {
+	return &FileRecipeRepository{assetsPath, parseIngredientQuantity, logger}
 }
 
 func (repo *FileRecipeRepository) Get(id string) (*dom.Recipe, *dom.RecipeError) {
@@ -43,7 +45,7 @@ func (repo *FileRecipeRepository) Get(id string) (*dom.Recipe, *dom.RecipeError)
 		return nil, dom.NewRecipeError(dom.InvalidData, jsonError.Error())
 	}
 
-	recipe, adapterError := jsonRecipe.DomainAdapter()
+	recipe, adapterError := jsonRecipe.DomainAdapter(repo.parseIngredientQuantity)
 	if adapterError != nil {
 		repo.logger.Warn("Failed to adapt json recipe")
 		return nil, dom.NewRecipeError(dom.InvalidData, adapterError.Error())

@@ -19,5 +19,5 @@ type IParseIngredientQuantity = dom.IParseIngredientQuantity
 type IngredientError = dom.IngredientError
 
 type IIngredientGateway interface {
-	ParseIngredientQuantity(str string, parsers []IParseIngredientQuantity) (*IngredientQuantity, *dom.IngredientError)
+	ParseIngredientQuantity(str string) (*IngredientQuantity, *dom.IngredientError)
 }

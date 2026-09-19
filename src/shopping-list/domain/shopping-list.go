@@ -1,6 +1,7 @@
 package domain
 
 import (
+	"fmt"
 	"slices"
 	"strings"
 
@@ -45,6 +46,7 @@ func (shpls ShoppingList) String() string {
 	for key, value := range shpls {
 		quantitiesStr := []string{}
 		for _, v := range value {
+			fmt.Printf("%v\n", v.String())
 			quantitiesStr = append(quantitiesStr, v.String())
 		}
 		itemsStr = append(itemsStr, key+":["+strings.Join(quantitiesStr, ",")+"]")

@@ -17,7 +17,7 @@ type JsonRecipe struct {
 	Steps       []string
 }
 
-func (r *JsonRecipe) DomainAdapter() (*dom.Recipe, *dom.RecipeError) {
+func (r *JsonRecipe) DomainAdapter(ingredientParser ing.IParseIngredientQuantity) (*dom.Recipe, *dom.RecipeError) {
 	if r.Quantity > 255 {
 		return &dom.Recipe{}, dom.NewRecipeError(dom.InvalidData, "Quantity is > 255")
 	}

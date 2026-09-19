@@ -23,14 +23,14 @@ func NewRecipeGateway(logger log.ILogger, ingredientGateway ing.IIngredientGatew
 }
 
 func (g *RecipeGateway) GetRecipe(id string) (*Recipe, *RecipeError) {
-	repo := infra.NewFileRecipeRepository("../assets/recipes", g.logger)
+	repo := infra.NewFileRecipeRepository("../assets/recipes", g.ingredientGateway.ParseIngredientQuantity, g.logger)
 	useCase := app.NewGetRecipeUseCase(repo.Get, g.logger)
 
 	return useCase.Exec(id)
 }
 
 func (g *RecipeGateway) FindRecipes(params *dom.FindRecipesParams) []*dom.Recipe {
-	repo := infra.NewFileRecipeRepository("../assets/recipes", g.logger)
+	repo := infra.NewFileRecipeRepository("../assets/recipes", g.ingredientGateway.ParseIngredientQuantity, g.logger)
 	useCase := app.NewFindRecipesUseCase(g.logger, repo)
 
 	return useCase.Exec(params)
