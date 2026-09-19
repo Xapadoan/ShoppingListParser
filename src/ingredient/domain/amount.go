@@ -2,9 +2,15 @@ package domain
 
 import (
 	"regexp"
+	re "regexp"
 	"strconv"
 	"strings"
 )
+
+type AmountRecognition struct {
+	pattern string
+	parser  func(string) (float32, error)
+}
 
 func parseIntegerAmount(pattern string) (float32, error) {
 	integer, err := strconv.Atoi(pattern)
@@ -32,7 +38,7 @@ func parseDecimalAmount(pattern string) (float32, error) {
 }
 
 func parseIntegerDecimalHybridAmount(pattern string) (float32, error) {
-	splitRegexp := regexp.MustCompile("([0-9]+) (1 ?/ ?[0-9]{1})")
+	splitRegexp := re.MustCompile("([0-9]+) (1 ?/ ?[0-9]{1})")
 	matches := splitRegexp.FindStringSubmatch(pattern)
 
 	if len(matches) < 3 {
@@ -63,32 +69,32 @@ func parseSpecificCharacterAmount(pattern string) (float32, error) {
 	}
 }
 
-func amountRecognitionMap() map[string]func(string) (float32, error) {
-	return map[string]func(string) (float32, error){
-		"[0-9]+ 1 ?/ ?[0-9]{1}": parseIntegerDecimalHybridAmount,
-		"1 ?/ ?[0-9]{1}":        parseDecimalAmount,
-		"[0-9]+":                parseIntegerAmount,
-		"½|¼":                   parseSpecificCharacterAmount,
+func amountRecognitionArray() []AmountRecognition {
+	return []AmountRecognition{
+		{"[0-9]+ 1 ?/ ?[0-9]{1}", parseIntegerDecimalHybridAmount},
+		{"1 ?/ ?[0-9]{1}", parseDecimalAmount},
+		{"[0-9]+", parseIntegerAmount},
+		{"½|¼", parseSpecificCharacterAmount},
 	}
 }
 
 func AmountRecognitionRegexp() string {
 	var patterns []string
 
-	for pattern := range amountRecognitionMap() {
-		patterns = append(patterns, pattern)
+	for _, recognition := range amountRecognitionArray() {
+		patterns = append(patterns, recognition.pattern)
 	}
 
 	return strings.Join(patterns, "|")
 }
 
-func ParseAmount(recognizedPattern string) (float32, error) {
-	for testPattern, parseFunction := range amountRecognitionMap() {
-		regex := regexp.MustCompile(testPattern)
+func ParseAmount(recognizedPattern string) (float32, *IngredientError) {
+	for _, recognition := range amountRecognitionArray() {
+		regex := regexp.MustCompile(recognition.pattern)
 		if regex.Match([]byte(recognizedPattern)) {
-			amount, amountErr := parseFunction(recognizedPattern)
+			amount, amountErr := recognition.parser(recognizedPattern)
 			if amountErr != nil {
-				return 0, amountErr
+				return 0, &IngredientError{ParsingFailed, amountErr.Error()}
 			}
 
 			return amount, nil
