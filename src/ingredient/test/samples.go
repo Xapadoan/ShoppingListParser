@@ -52,5 +52,7 @@ func RealLifeSamples() []TestSample {
 		{"Gousses d'ail-2", &dom.IngredientQuantity{Amount: 2, Unit: dom.Unit_Unit, Name: "Gousse d'ail"}},
 		{"1 Avocat(s)", &dom.IngredientQuantity{Amount: 1, Unit: dom.Unit_Unit, Name: "Avocats"}},
 		{"400 g d'échine de porc", &dom.IngredientQuantity{Amount: 400, Unit: dom.Unit_Gram, Name: "Echine de porc"}},
+		{"3/2 cac Graines de fenouil", &dom.IngredientQuantity{Amount: 1.5, Unit: dom.Unit_Cac, Name: "Graines de fenouil"}},
+		{"Épaule de veau 1 kg", &dom.IngredientQuantity{Amount: 1000, Unit: dom.Unit_Gram, Name: "Épaule de veau"}},
 	}
 }

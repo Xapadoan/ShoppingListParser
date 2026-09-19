@@ -57,6 +57,7 @@ func unitAndRatioRecognitionArray() []UnitAndRatioRecognition {
 
 		// Unit_Gram
 		{"g", UnitConversionRatio{Unit_Gram, 1}},
+		{"kg", UnitConversionRatio{Unit_Gram, 1000}},
 
 		// Unit_Milliliter
 		{"ml", UnitConversionRatio{Unit_Milliliter, 1}},

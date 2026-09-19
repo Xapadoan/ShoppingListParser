@@ -22,6 +22,7 @@ func TestAmountParsing(t *testing.T) {
 		parsedAmount, parsedAmountErr := dom.ParseAmount(sample.TestString)
 		if parsedAmountErr != nil {
 			t.Errorf("Failed to parse amount for sample \"%v\"", sample)
+			continue
 		}
 
 		if parsedAmount != sample.ExpectedResult.Amount {

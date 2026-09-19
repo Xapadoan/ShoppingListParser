@@ -71,8 +71,8 @@ func parseSpecificCharacterAmount(pattern string) (float32, error) {
 
 func amountRecognitionArray() []AmountRecognition {
 	return []AmountRecognition{
-		{"[0-9]+ 1 ?/ ?[0-9]{1}", parseIntegerDecimalHybridAmount},
-		{"1 ?/ ?[0-9]{1}", parseDecimalAmount},
+		{"[0-9]+ [0-9]+ ?/ ?[0-9]{1}", parseIntegerDecimalHybridAmount},
+		{"[0-9]+ ?/ ?[0-9]{1}", parseDecimalAmount},
 		{"[0-9]+", parseIntegerAmount},
 		{"½|¼", parseSpecificCharacterAmount},
 	}
