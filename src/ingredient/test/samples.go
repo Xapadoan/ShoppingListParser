@@ -45,7 +45,7 @@ func RealLifeSamples() []TestSample {
 		{"½ c. à café du curcuma", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Cac, Name: "Curcuma"}},
 		{"2 c. à soupe vinaigre de cidre", &dom.IngredientQuantity{Amount: 2, Unit: dom.Unit_Cas, Name: "Vinaigre de cidre"}},
 		{"huile d'olive", &dom.IngredientQuantity{Amount: 1, Unit: dom.Unit_Unit, Name: "Huile d'olive"}},
-		{"2 cas chapelure", &dom.IngredientQuantity{Amount: 2, Unit: dom.Unit_Cac, Name: "Chapelure"}},
+		{"2 cas chapelure", &dom.IngredientQuantity{Amount: 2, Unit: dom.Unit_Cas, Name: "Chapelure"}},
 		{"1/2 Oignon rouge", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Unit, Name: "Oignons Rouges"}},
 		{"1 1/2 botte persil", &dom.IngredientQuantity{Amount: 0.5, Unit: dom.Unit_Unit, Name: "Botte de persil"}},
 		{"¼ cuillère à café de cumin moulu", &dom.IngredientQuantity{Amount: 0.25, Unit: dom.Unit_Cac, Name: "Cumin"}},
