@@ -2,7 +2,6 @@ package domain
 
 import (
 	"encoding/json"
-	"strconv"
 
 	ing "github.com/Xapadoan/shplsprsr/ingredient/domain"
 )
@@ -52,7 +51,7 @@ func (r *Recipe) MarshalJSON() ([]byte, error) {
 
 	var ingredientsAsString []string
 	for _, i := range r.Ingredients() {
-		ingredientsAsString = append(ingredientsAsString, strconv.Itoa(int(i.Amount))+i.Unit.String()+" "+i.Name)
+		ingredientsAsString = append(ingredientsAsString, i.String())
 	}
 	return json.Marshal(struct {
 		Name        string

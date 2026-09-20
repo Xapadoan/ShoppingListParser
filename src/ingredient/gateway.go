@@ -3,7 +3,7 @@ package ingredient
 import (
 	log "github.com/Xapadoan/shplsprsr/logger"
 
-	app "github.com/Xapadoan/shplsprsr/ingredient/application"
+	dom "github.com/Xapadoan/shplsprsr/ingredient/domain"
 )
 
 type IngredientGateway struct {
@@ -14,7 +14,6 @@ func NewIngredientGateway(logger log.ILogger) *IngredientGateway {
 	return &IngredientGateway{logger}
 }
 
-func (g *IngredientGateway) ParseIngredientQuantity(text string, parsers []IParseIngredientQuantity) (*IngredientQuantity, *IngredientError) {
-	usecase := app.NewParseIngredientQuantityUsecase(g.logger, parsers)
-	return usecase.Exec(text)
+func (g *IngredientGateway) ParseIngredientQuantity(text string) (*IngredientQuantity, *IngredientError) {
+	return dom.ParseIngredientQuantity(text)
 }
