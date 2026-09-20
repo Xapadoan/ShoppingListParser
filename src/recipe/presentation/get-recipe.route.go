@@ -1,8 +1,6 @@
 package presentation
 
 import (
-	"encoding/json"
-
 	dom "github.com/Xapadoan/shplsprsr/recipe/domain"
 
 	log "github.com/Xapadoan/shplsprsr/logger"
@@ -33,14 +31,14 @@ func (h *GetRecipeHandler) HandleGetRecipe(req *srv.RouteRequest, res *srv.Route
 		return &srv.ServerError{Code: srv.Internal}
 	}
 
-	json, marshalError := json.Marshal(recipe)
-	if marshalError != nil {
-		h.logger.Warn("Marshal JSON Failed: ", marshalError.Error())
+	jsonRecipe, jsonRecipeError := RecipeAsJsonBody(recipe)
+	if jsonRecipeError != nil {
+		h.logger.Warn("Marshal JSON Failed: ", jsonRecipeError.Error())
 		return &srv.ServerError{Code: srv.Internal}
 	}
 
 	res.Status = srv.Ok
-	res.Body = json
+	res.Body = jsonRecipe
 
 	return nil
 }
