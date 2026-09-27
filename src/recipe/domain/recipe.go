@@ -1,8 +1,6 @@
 package domain
 
 import (
-	"encoding/json"
-
 	ing "github.com/Xapadoan/shplsprsr/ingredient/domain"
 )
 
@@ -45,23 +43,4 @@ func (r *Recipe) AdaptQuantity(numberOfPeopleEating uint16) *Recipe {
 	}
 
 	return &recipe
-}
-
-func (r *Recipe) MarshalJSON() ([]byte, error) {
-
-	var ingredientsAsString []string
-	for _, i := range r.Ingredients() {
-		ingredientsAsString = append(ingredientsAsString, i.String())
-	}
-	return json.Marshal(struct {
-		Name        string
-		Quantity    int
-		Ingredients []string
-		Steps       []string
-	}{
-		r.Name(),
-		int(r.NumberOfPeopleEating()),
-		ingredientsAsString,
-		r.Steps(),
-	})
 }
