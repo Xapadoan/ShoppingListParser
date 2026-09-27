@@ -1,0 +1,26 @@
+{
+  "Id": "20260929-20261005",
+  "Menus": [
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Quiche poulet champignon", "RecipeIds": ["quiche-poulet-champignons", "salade-tomates-mozzarella"] },
+    { "Title": "Quiche poulet champignon", "RecipeIds": ["quiche-poulet-champignons", "salade-tomates-mozzarella"] },
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Bouffe du marche", "RecipeIds": [] },
+    { "Title": "Repas Anniv'", "RecipeIds": [] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Repas Anniv'", "RecipeIds": [] },
+    { "Title": "Repas Anniv'", "RecipeIds": [] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Saumon et petits legumes", "RecipeIds": ["saumon-legumes"] },
+    { "Title": "Salade Grecque", "RecipeIds": ["salade-grecque", "portion-pates"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Saumon et petits legumes", "RecipeIds": ["saumon-legumes"] },
+    { "Title": "Salade Grecque", "RecipeIds": ["salade-grecque", "portion-pates"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Chili con carne avec riz", "RecipeIds": ["chili-con-carne", "portion-riz"] },
+    { "Title": "Salade quinoa brocolis", "RecipeIds": ["salade-quinoa-brocoli", "oignons-confits"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Chili con carne avec riz", "RecipeIds": ["chili-con-carne", "portion-riz"] },
+    { "Title": "Salade quinoa brocolis", "RecipeIds": ["salade-quinoa-brocoli", "oignons-confits"] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "Salade tomates et mozzarella",
+  "Quantity": 4,
+  "Ingredients": [
+    "4 tomates",
+    "2 boules mozzarella",
+    "1cas huile d'olive",
+    "Herbes de provence",
+    "sel"
+  ],
+  "Steps": [
+    "Couper les tomates en moitie, puis chaque moitie en fine lamelles. Faire de meme avec la mozzarella",
+    "Disposer les tranches en alternances, verser un filet d'huile d'olive, saler et saupoudrer d'herbes de provence"
+  ]
+}

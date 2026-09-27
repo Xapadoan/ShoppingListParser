@@ -1,0 +1,18 @@
+{
+  "Name": "Salade de Quinoa et Brocolis",
+  "Quantity": 4,
+  "Ingredients": [
+    "Quinoa 250g",
+    "Brocolis 2",
+    "Oignons confits",
+    "Cube de bouillon de legumes 1",
+    "1 cas huile d'olive",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Dans un fait tout, verser le quinoa et le cube de bouillon emiette avec un peu de sel, couvrir d'eau et cuire le quinoa.",
+    "Pendant ce temps, tailler les brocolis en petites fleurettes et ajouter au melange, laisser cuire encore 15mins, ajouter de l'eau si necessaire",
+    "En toute fin, ajouter les oignons confits et melanger vigoureusement."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Chilli con carne",
+  "Quantity": 4,
+  "Ingredients": [
+    "600g Viande hachee",
+    "2 Oignons",
+    "4 gousses d'ail",
+    "3 Poivrons",
+    "3 1/2 boites de tomates",
+    "4cac canelle",
+    "4cac raz el hanoud",
+    "2cac curry",
+    "1cas d'huile d'olive",
+    "1/2 botte de persil"
+  ],
+  "Steps": [
+    "Emincer les oignons et les faire revenir dans une marmitte avec une cuillere d'huile d'olive",
+    "Pendant ce temps, eplucher l'ail et le hacher grossierement avec le persil",
+    "Lorsque les oignons commencent a dorer, ajouter l'ail et la viande hachee ainsi que les epices et le persil, bien melanger et laisser cuire a feu moyen",
+    "Tailler les poivrons en julienne, lorsque la viande commence a griller, ajouter les tomates et les poivrons. Laisser mijoter 1h a feu doux"
+  ]
+}

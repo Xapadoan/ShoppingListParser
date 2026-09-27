@@ -1,0 +1,17 @@
+{
+  "Name": "Salade Grecque",
+  "Quantity": 4,
+  "Ingredients": [
+    "Concombres 2",
+    "Tomates Grappes 6",
+    "2cas Huile d'olive",
+    "2cas Vinaigre balsamique",
+    "Herbes de provences",
+    "Sel"
+  ],
+  "Steps": [
+    "Couper les concombres et les tomates en des d'1 cm de cote",
+    "Preparer la vinaigrette en melangeant le vinaigre, l'huile et le sel",
+    "Melanger le tout dans un grand saladier, ne pas oublier les herbes de provences"
+  ]
+}

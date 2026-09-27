@@ -1,0 +1,26 @@
+{
+  "Name": "Saumon et petits legumes",
+  "Quantity": 4,
+  "Ingredients": [
+    "250g riz blanc",
+    "4 paves de saumon",
+    "200g haricots verts",
+    "2 carottes",
+    "1 citron vert",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Rincer le riz et le faire cuire a l'auto cuiseur",
+    "Tailler les carottes en julienne",
+    "Dans un grand volume d'eau salee a ebulition, plonger les carottes pendant 10 min",
+    "Couper les haricots en section de 5cms environs",
+    "Au bout des 10 mins, ajouter les haricots et laisser cuire encore 10mins",
+    "Passer les legumes et stopper la cuisson en les plongeant dans de l'eau froide, puis passer une seconde fois",
+    "Patienter le temps que le riz soit pret",
+    "Faites chauffer une poele avec l'huile l'olive a feu moyen",
+    "Poser les paves de saumon face peau sur la poele et laisser griller sur une seule face jusqu'a ce que le bas soit cuit et le haut presque cuit",
+    "Pendant ce temps, disposer un lit de riz dans chaque assiette et les legumes a cotes, saler, poivrer et presser le citron",
+    "Lorsque le saumon est pret, le poser sur le lit de riz et verser le jus du citron"
+  ]
+}
