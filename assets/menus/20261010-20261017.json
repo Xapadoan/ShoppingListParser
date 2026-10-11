@@ -1,0 +1,26 @@
+{
+  "Id": "20261010-20261017",
+  "Menus": [
+    { "title": "Tartinnes beurre confitures", "recipeIds": ["tartines-beurre-confiture"] },
+    { "title": "Tagliatelles au coulis de courgettes", "recipeIds": ["tagliatelles-coulis-courgettes"] },
+    { "title": "Tagliatelles au coulis de courgettes", "recipeIds": ["tagliatelles-coulis-courgettes"] },
+    { "Title": "Tartinnes beurre confitures", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Bouffe du marche", "RecipeIds": [] },
+    { "Title": "Curry legumes poulet", "RecipeIds": ["curry-rouge-legumes"] },
+    { "title": "Tartinnes beurre confitures", "recipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Curry legumes poulet", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Curry legumes poulet", "RecipeIds": ["curry-rouge-legumes"] },
+    { "title": " ", "recipeIds": [] },
+    { "Title": "Pates sauce betterave", "RecipeIds": ["pink-pasta-betterave-pourpier"] },
+    { "Title": "Pates sauce betterave", "RecipeIds": ["pink-pasta-betterave-pourpier"] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": " ", "recipeIds": [] },
+    { "title": "Repas anniv'", "recipeIds": [] }
+  ]
+}
