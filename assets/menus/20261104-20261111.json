@@ -1,0 +1,26 @@
+{
+  "Id": "20261104-20261111",
+  "Menus": [
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Curry Rouge", "RecipeIds": ["curry-rouge-legumes"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Pates brocolis Piments", "RecipeIds": ["pates-brocolis-piment"] },
+    { "Title": "Roules Oeufs Epinards", "RecipeIds": ["roules-oeufs-epinards", "salade-verte-tomate"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Pates brocolis Piments", "RecipeIds": ["pates-brocolis-piment"] },
+    { "Title": "Roules Oeufs Epinards", "RecipeIds": ["roules-oeufs-epinards", "salade-verte-tomate"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Pates brocolis Piments", "RecipeIds": ["pates-brocolis-piment"] },
+    { "Title": "Tagliattelles au coulis de courgette", "RecipeIds": ["tagliatelles-coulis-courgettes"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Tagliattelles au coulis de courgette", "RecipeIds": ["tagliatelles-coulis-courgettes"] },
+    { "Title": "Tagliattelles au coulis de courgette", "RecipeIds": ["tagliatelles-coulis-courgettes"] }
+  ]
+}
