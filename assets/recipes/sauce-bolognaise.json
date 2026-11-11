@@ -1,0 +1,25 @@
+{
+  "Name": "Sauce bolognaise",
+  "Quantity": 4,
+  "Ingredients": [
+    "600g viande hachee",
+    "3 carottes",
+    "2 boites de tomates",
+    "2 oignons",
+    "3 gousses d'ail",
+    "1 branches de celeri",
+    "1 bouquet garni",
+    "4 cac raz el hanoud",
+    "4 cac cannelle",
+    "2 cac curry jaune",
+    "1/2 cac piment fort",
+    "2 cas huile d'olive",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Tailler les carottes, les oignons et le celeri en brunoise et les faire revenir dans une marmite",
+    "Lorsque les oignons sont translucides, ajouter la viande hachee et les epices, melanger et laisser cuire jusqu'a ce que la viande soit bien grillee",
+    "Ajouter les tomates et le bouquet garni et laisser mijoter pendant 1h"
+  ]
+}

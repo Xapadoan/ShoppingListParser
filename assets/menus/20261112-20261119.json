@@ -1,0 +1,26 @@
+{
+  "Id": "20261104-20261111",
+  "Menus": [
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Lasagnes bolognaise", "RecipeIds": ["lasagnes-bolognaise", "sauce-bolognaise", "sauce-bechamel"] },
+    { "Title": "Lasagnes bolognaise", "RecipeIds": ["lasagnes-bolognaise", "sauce-bolognaise", "sauce-bechamel"] },
+    { "Title": "Toast oeuf avocat", "RecipeIds": ["toasts-oeufs-avocats"] },
+    { "Title": "Wellington et salade de haricots", "RecipeIds": ["salade-trois-haricots", "wellington-vegetarien"] },
+    { "Title": "Wellington et salade de haricots", "RecipeIds": ["salade-trois-haricots", "wellington-vegetarien"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Wellington et salade de haricots", "RecipeIds": ["salade-trois-haricots", "wellington-vegetarien"] },
+    { "Title": "Salade de crevettes et quiche a la tomate", "RecipeIds": ["salade-pesto-crevettes", "quiche-tomates-chevre", "pate-brisee-maison"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Salade de crevettes et quiche a la tomate", "RecipeIds": ["salade-pesto-crevettes", "quiche-tomates-chevre", "pate-brisee-maison"] },
+    { "Title": "Bouillon du pecheur et taboule de chou-fleur", "RecipeIds": ["bouillon-pecheur", "taboule-chou-fleur-pois-chiche"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Bouillon du pecheur et taboule de chou-fleur", "RecipeIds": ["bouillon-pecheur", "taboule-chou-fleur-pois-chiche"] },
+    { "Title": "Poulet marine avec brocolis et ebly", "RecipeIds": ["poulet-marine-dijonaise", "portion-graines-ble", "portion-brocolis"] },
+    { "Title": "Fromage blanc, avoine et fruits", "RecipeIds": ["fromage-blanc-avoine-fruits"] },
+    { "Title": "Poulet marine avec brocolis et ebly", "RecipeIds": ["poulet-marine-dijonaise", "portion-graines-ble", "portion-brocolis"] },
+    { "Title": "Plaque de legumes et pates", "RecipeIds": ["plaque-legumes-four", "portion-pates"] },
+    { "Title": "Tartines beurre confiture", "RecipeIds": ["tartines-beurre-confiture"] },
+    { "Title": "Plaque de legumes et pates", "RecipeIds": ["plaque-legumes-four", "portion-pates"] },
+    { "Title": "Plaque de legumes et pates", "RecipeIds": ["plaque-legumes-four", "portion-pates"] }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Name": "Lasagnes bolognaise",
+  "Quantity": 4,
+  "Ingredients": [
+    "Pates a lasagnes",
+    "Sauce bolognaise",
+    "Sauce bechamel",
+    "200g Parmesan"
+  ],
+  "Steps": [
+    "Prechauffer le four a 180",
+    "Verser un peu de bechamel dans le fond d'un plat pour eviter de coller, et disposer une couche de pates",
+    "Verser une couche de bolognaise par dessus et egalisez l'epaisseur",
+    "Verser une couche de bechamel cette fois, egaliser egalement l'epaisseur",
+    "Saupoudrer de parmesan et repeter ces etapes jusqu'a epuisement des ingredients",
+    "Enfourner pour 45 minutes"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "Sauce Bechamel",
+  "Quantity": 4,
+  "Ingredients": [
+    "50g farine de ble",
+    "50g beurre",
+    "1l lait vegetal",
+    "Noix de muscade",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Dans une casserole, faire un blond avec le beurre et la farine",
+    "Ajouter le lait petit a petit en fouettant pour eviter les grumeaux jusqu'a obetnir la consistance desiree",
+    "Saler, poivrer et ajouter de la noix de muscade"
+  ]
+}
