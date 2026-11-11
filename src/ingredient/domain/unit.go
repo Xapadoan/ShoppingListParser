@@ -47,12 +47,14 @@ func unitAndRatioRecognitionArray() []UnitAndRatioRecognition {
 		// Unit_Cac
 		{"cac", UnitConversionRatio{Unit_Cac, 1}},
 		{"cuillère à café", UnitConversionRatio{Unit_Cac, 1}},
+		{`cuillère\(s\) à café`, UnitConversionRatio{Unit_Cac, 1}},
 		{"c. à café", UnitConversionRatio{Unit_Cac, 1}},
 
 		// Unit_Cas
 		{"cas", UnitConversionRatio{Unit_Cas, 1}},
 		{"cuillère à soupe", UnitConversionRatio{Unit_Cas, 1}},
 		{"cuillères à soupe", UnitConversionRatio{Unit_Cas, 1}},
+		{`cuillère\(s\) à soupe`, UnitConversionRatio{Unit_Cac, 1}},
 		{"c. à soupe", UnitConversionRatio{Unit_Cas, 1}},
 
 		// Unit_Gram
@@ -60,6 +62,8 @@ func unitAndRatioRecognitionArray() []UnitAndRatioRecognition {
 		{"kg", UnitConversionRatio{Unit_Gram, 1000}},
 
 		// Unit_Milliliter
+		{"l", UnitConversionRatio{Unit_Milliliter, 1000}},
+		{"cl", UnitConversionRatio{Unit_Milliliter, 10}},
 		{"ml", UnitConversionRatio{Unit_Milliliter, 1}},
 
 		// Unit_Unit
