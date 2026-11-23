@@ -27,6 +27,7 @@ const (
 
 const (
 	Ok              = dom.Ok
+	Created         = dom.Created
 	BadRequestError = dom.BadRequestError
 	NotFoundError   = dom.NotFoundError
 	InternalError   = dom.InternalError
