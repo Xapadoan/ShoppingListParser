@@ -20,9 +20,15 @@ func NewCreateMenuCollectionHandler(logger log.ILogger) *CreateMenuCollectionHan
 
 func (h *CreateMenuCollectionHandler) HandleCreateMenuCollection(req *srv.RouteRequest, res *srv.RouteResponse) *srv.ServerError {
 	h.logger.Debug("Creating new menu")
+
+	params, parseBodyErr := parseBody(req.Body)
+	if parseBodyErr != nil {
+		h.logger.Debug("Bad Body:\n", req.Body, "\nParsing failed:\n", parseBodyErr.Error())
+		return &srv.ServerError{Code: srv.BadRequest}
+	}
 	repo := infra.NewFileMenuRepository("../assets/menus", h.logger)
-	usecase := app.NewCreateEmptyMenuCollectionUsecase(repo.StoreMenuCollection)
-	collection, usecaseErr := usecase.Exec()
+	usecase := app.NewCreateMenuCollectionUsecase(repo.StoreMenuCollection)
+	collection, usecaseErr := usecase.Exec(params)
 	if usecaseErr != nil {
 		h.logger.Warn("Failed to create menu")
 		return &srv.ServerError{Code: srv.Internal}
@@ -38,4 +44,14 @@ func (h *CreateMenuCollectionHandler) HandleCreateMenuCollection(req *srv.RouteR
 	res.Body = json
 
 	return nil
+}
+
+func parseBody(body string) (*app.CreateMenuCollectionParams, error) {
+	var params app.CreateMenuCollectionParams
+	err := json.Unmarshal([]byte(body), &params)
+	if err != nil {
+		return nil, err
+	}
+
+	return &params, nil
 }
