@@ -45,3 +45,28 @@ func (repo *FileMenuRepository) GetMenuCollection(id string) (*dom.MenuCollectio
 
 	return &collection, nil
 }
+
+func (repo *FileMenuRepository) StoreMenuCollection(collection *dom.MenuCollection) *dom.MenuError {
+	path := repo.assetsPath + "/" + collection.Id + ".json"
+	repo.logger.Debug("Storing File:", path)
+
+	_, statErr := os.Stat(path)
+	if statErr == nil || !errors.Is(statErr, os.ErrNotExist) {
+		repo.logger.Warn("Menu with id", collection.Id, "already exists")
+		return &dom.MenuError{Code: dom.AlreadyExists}
+	}
+
+	fileContent, marshalError := json.Marshal(collection)
+	if marshalError != nil {
+		repo.logger.Error(marshalError, "Failed to marshal collection", collection.Id)
+		return &dom.MenuError{Code: dom.InvalidData}
+	}
+
+	writeErr := os.WriteFile(path, fileContent, 0666)
+	if writeErr != nil {
+		repo.logger.Error(writeErr, "Failed write file", path)
+		return &dom.MenuError{Code: dom.StoreFailed}
+	}
+
+	return nil
+}

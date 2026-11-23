@@ -7,6 +7,8 @@ const (
 	NotFound
 	FetchFailed
 	InvalidData
+	AlreadyExists
+	StoreFailed
 )
 
 type MenuError struct {
@@ -21,6 +23,8 @@ func (e MenuError) String() string {
 		return "Fetch Failed"
 	case InvalidData:
 		return "Invalid Data"
+	case AlreadyExists:
+		return "AlreadyExists"
 	default:
 		return "Unknown"
 	}

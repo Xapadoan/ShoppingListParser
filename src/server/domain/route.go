@@ -4,6 +4,7 @@ type StatusCode int
 
 const (
 	Ok              StatusCode = 200
+	Created         StatusCode = 201
 	InternalError   StatusCode = 500
 	NotFoundError   StatusCode = 404
 	BadRequestError StatusCode = 400

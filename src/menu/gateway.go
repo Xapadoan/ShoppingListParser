@@ -21,7 +21,17 @@ func NewMenuGateway(logger log.ILogger) *MenuGateway {
 }
 
 func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
-	handler := pres.NewGetMenuCollectionHandler(g.logger)
+	createMenuHandler := pres.NewCreateMenuCollectionHandler(g.logger)
+	server.RegisterRoute(srv.Route{
+		Method: srv.POST,
+		Path:   "/menus",
+		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
+			return nil
+		},
+		HandleRequest: createMenuHandler.HandleCreateMenuCollection,
+	})
+
+	getMenuHandler := pres.NewGetMenuCollectionHandler(g.logger)
 	server.RegisterRoute(srv.Route{
 		Method: srv.GET,
 		Path:   "/menu/{id}",
@@ -31,7 +41,7 @@ func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
 
 			return nil
 		},
-		HandleRequest: handler.HandleGetMenuCollection,
+		HandleRequest: getMenuHandler.HandleGetMenuCollection,
 	})
 }
 
