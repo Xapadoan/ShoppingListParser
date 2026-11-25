@@ -5,6 +5,7 @@ type StatusCode int
 const (
 	Ok              StatusCode = 200
 	Created         StatusCode = 201
+	NoContent       StatusCode = 204
 	InternalError   StatusCode = 500
 	NotFoundError   StatusCode = 404
 	BadRequestError StatusCode = 400
@@ -28,6 +29,7 @@ type Method string
 const (
 	GET  Method = "GET"
 	POST Method = "POST"
+	PUT  Method = "PUT"
 )
 
 func (m Method) String() string {
@@ -36,6 +38,8 @@ func (m Method) String() string {
 		return "GET"
 	case POST:
 		return "POST"
+	case PUT:
+		return "PUT"
 	default:
 		return "GET"
 	}
