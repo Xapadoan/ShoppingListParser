@@ -21,7 +21,7 @@ func NewCreateMenuCollectionHandler(logger log.ILogger) *CreateMenuCollectionHan
 func (h *CreateMenuCollectionHandler) HandleCreateMenuCollection(req *srv.RouteRequest, res *srv.RouteResponse) *srv.ServerError {
 	h.logger.Debug("Creating new menu")
 
-	params, parseBodyErr := parseBody(req.Body)
+	params, parseBodyErr := parseCreateMenuCollectionParams(req.Body)
 	if parseBodyErr != nil {
 		h.logger.Debug("Bad Body:\n", req.Body, "\nParsing failed:\n", parseBodyErr.Error())
 		return &srv.ServerError{Code: srv.BadRequest}
@@ -46,7 +46,7 @@ func (h *CreateMenuCollectionHandler) HandleCreateMenuCollection(req *srv.RouteR
 	return nil
 }
 
-func parseBody(body string) (*app.CreateMenuCollectionParams, error) {
+func parseCreateMenuCollectionParams(body string) (*app.CreateMenuCollectionParams, error) {
 	var params app.CreateMenuCollectionParams
 	err := json.Unmarshal([]byte(body), &params)
 	if err != nil {

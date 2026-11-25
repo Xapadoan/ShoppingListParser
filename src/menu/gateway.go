@@ -24,11 +24,24 @@ func (g *MenuGateway) RegisterRoutes(server srv.IServeHttp) {
 	createMenuHandler := pres.NewCreateMenuCollectionHandler(g.logger)
 	server.RegisterRoute(srv.Route{
 		Method: srv.POST,
-		Path:   "/menus",
+		Path:   "/menu",
 		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
 			return nil
 		},
 		HandleRequest: createMenuHandler.HandleCreateMenuCollection,
+	})
+
+	updateMenuHandler := pres.NewUpdateMenuCollectionHandler(g.logger)
+	server.RegisterRoute(srv.Route{
+		Method: srv.PUT,
+		Path:   "/menu/{id}",
+		ParseURL: func(url string, req *srv.RouteRequest) *srv.ServerError {
+			words := strings.Split(url, "/")
+			req.Params = append(req.Params, words[2])
+
+			return nil
+		},
+		HandleRequest: updateMenuHandler.HandleUpdateMenuCollection,
 	})
 
 	getMenuHandler := pres.NewGetMenuCollectionHandler(g.logger)

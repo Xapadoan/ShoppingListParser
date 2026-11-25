@@ -20,10 +20,9 @@ func NewHttpMuxServer(logger log.ILogger) *HttpMuxServer {
 }
 
 func (server *HttpMuxServer) RegisterRoute(route dom.Route) {
-	server.logger.Debug("Registering route", route.Path)
-	http.HandleFunc(route.Method.String()+" "+route.Path, func(res http.ResponseWriter, req *http.Request) {
+	server.logger.Debug("Registering route", route.Method.String(), route.Path)
+	server.http.HandleFunc(route.Method.String()+" "+route.Path, func(res http.ResponseWriter, req *http.Request) {
 		server.logger.Debug(req.Method, req.URL.Path)
-		addCorsHeader(res)
 		request := dom.RouteRequest{}
 		parseUrlErr := route.ParseURL(req.URL.Path, &request)
 		if parseUrlErr != nil {
@@ -53,13 +52,24 @@ func (server *HttpMuxServer) RegisterRoute(route dom.Route) {
 	})
 }
 
-func addCorsHeader(res http.ResponseWriter) {
+func addCorsHeaders(res http.ResponseWriter) {
 	headers := res.Header()
-	headers.Add("Access-Control-Allow-Origin", "*")
-	headers.Add("Access-Control-Request-Method", "*")
-	headers.Add("Access-Control-Request-Headers", "*")
+	headers.Add("Access-Control-Allow-Origin", "http://localhost:4200")
 	headers.Add("Access-Control-Allow-Headers", "Content-Type, Origin, Accept")
-	headers.Add("Access-Control-Allow-Methods", "GET, POST,OPTIONS")
+	headers.Add("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
+}
+
+func corsMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		addCorsHeaders(w)
+
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusNoContent)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
 }
 
 func (server *HttpMuxServer) Start(port int) {
@@ -67,5 +77,5 @@ func (server *HttpMuxServer) Start(port int) {
 
 	portAsString := strconv.Itoa(port)
 	server.logger.Info("Server Listening on http://localhost:" + portAsString)
-	http.ListenAndServe(":"+portAsString, nil)
+	http.ListenAndServe(":"+portAsString, corsMiddleware(server.http))
 }

@@ -28,6 +28,7 @@ const (
 const (
 	Ok              = dom.Ok
 	Created         = dom.Created
+	NoContent       = dom.NoContent
 	BadRequestError = dom.BadRequestError
 	NotFoundError   = dom.NotFoundError
 	InternalError   = dom.InternalError
@@ -36,4 +37,5 @@ const (
 const (
 	GET  = dom.GET
 	POST = dom.POST
+	PUT  = dom.PUT
 )
