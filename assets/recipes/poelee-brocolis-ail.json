@@ -1,0 +1,19 @@
+{
+  "Name": "Poêlée de brocolis à l'ail",
+  "Quantity": 4,
+  "Ingredients": [
+    "1 brocolis",
+    "3 cas jus de citron",
+    "4 gousses d'ail",
+    "Sel",
+    "Poivre"
+  ],
+  "Steps": [
+    "Porter une casserole d'eau salee a ebulition",
+    "Tailler les brocolis en fleurettes et les plonger dans l'eau pendant 5mins",
+    "Eplucher et hacher l'ail",
+    "Egoutter et rincer les brocolis a l'eau froide (stopper la cuisson)",
+    "Verser le jus de citron dans une poele, ajouter l'ail et les brocolis",
+    "Faire revenir quelques minutes"
+  ]
+}

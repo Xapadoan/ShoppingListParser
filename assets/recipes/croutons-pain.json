@@ -1,0 +1,16 @@
+{
+  "Name": "Croutons de pain",
+  "Quantity": 4,
+  "Ingredients": [
+    "225g pain un peu vieux",
+    "70g de beurre",
+    "1/2 cuillère à café de sel",
+    "60 g d'herbes au choix"
+  ],
+  "Steps": [
+    "Coupez le pain en cubes de 1 à 1,5 cm.",
+    "Faites fondre le beurre dans une grande poêle.",
+    "Ajoutez vos cubes de pain, remuez bien, et laissez-les dorer 10 minutes à feu moyen. Ils doivent chanter doucement, pas hurler.",
+    "Dans les 2 dernières minutes, ajoutez le sel et l’assaisonnement choisi."
+  ]
+}
